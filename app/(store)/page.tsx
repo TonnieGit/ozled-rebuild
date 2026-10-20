@@ -68,11 +68,15 @@ export default async function HomePage() {
                 {hero.ctaLabel ?? "Shop now"} <Icon name="arrowRight" size={18} />
               </Link>
             )}
-            {hubs[0] && (
-              <Link href={hubs[0].path} className="inline-flex h-12 items-center rounded-md border border-white/40 px-6 font-semibold text-white hover:bg-white/10">
-                Building a tray? Start here
-              </Link>
-            )}
+            {/* Second CTA: the hub the primary banner doesn't already point at. */}
+            {(() => {
+              const other = hubs.find((h) => h.path !== hero?.ctaUrl && h.featuredKitPath !== hero?.ctaUrl);
+              return other ? (
+                <Link href={other.path} className="inline-flex h-12 items-center rounded-md border border-white/40 px-6 font-semibold text-white hover:bg-white/10">
+                  {other.navLabel}: start here
+                </Link>
+              ) : null;
+            })()}
           </div>
         </div>
       </section>
