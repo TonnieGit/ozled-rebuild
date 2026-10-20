@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      DATA_SOURCE: fixtures
+      NEXT_PUBLIC_SITE_URL: https://www.ozled.com.au
+      NEXT_PUBLIC_COMMERCE_ORIGIN: https://www.ozled.com.au
+      NEXT_PUBLIC_CART_MODE: local
+      ALLOW_INDEXING: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build
+      - name: Start server
+        run: |
+          pnpm start -p 3000 &
+          npx --yes wait-on http://localhost:3000 --timeout 60000
+      - name: SEO audit (SPEC §8.3)
+        run: pnpm seo-audit http://localhost:3000
+      - name: E2E (Playwright)
+        run: |
+          pnpm exec playwright install --with-deps chromium
+          pnpm exec playwright test
+        env:
+          BASE_URL: http://localhost:3000
+      - name: Lighthouse CI (SPEC §11 budgets)
+        run: pnpm lhci

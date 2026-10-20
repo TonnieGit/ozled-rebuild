@@ -1,0 +1,186 @@
+@import "tailwindcss";
+@import "../src/styles/tokens.css";
+
+/* Map design tokens into Tailwind utilities (bg-surface, text-fg-muted, font-display, ...). */
+@theme inline {
+  --color-bg: var(--oz-color-bg);
+  --color-bg-subtle: var(--oz-color-bg-subtle);
+  --color-bg-muted: var(--oz-color-bg-muted);
+  --color-surface: var(--oz-color-surface);
+  --color-surface-raised: var(--oz-color-surface-raised);
+  --color-fg: var(--oz-color-fg);
+  --color-fg-muted: var(--oz-color-fg-muted);
+  --color-fg-subtle: var(--oz-color-fg-subtle);
+  --color-border: var(--oz-color-border);
+  --color-border-strong: var(--oz-color-border-strong);
+  --color-brand: var(--oz-color-brand);
+  --color-action: var(--oz-color-action);
+  --color-action-hover: var(--oz-color-action-hover);
+  --color-action-fg: var(--oz-color-action-fg);
+  --color-link: var(--oz-color-link);
+  --color-signal: var(--oz-color-signal);
+  --color-signal-fg: var(--oz-color-signal-fg);
+  --color-success: var(--oz-color-success);
+  --color-warning: var(--oz-color-warning);
+  --color-error: var(--oz-color-error);
+  --color-chrome: var(--oz-color-chrome);
+  --color-chrome-raised: var(--oz-color-chrome-raised);
+  --color-chrome-fg: var(--oz-color-chrome-fg);
+  --color-chrome-fg-muted: var(--oz-color-chrome-fg-muted);
+  --color-chrome-border: var(--oz-color-chrome-border);
+  --color-focus: var(--oz-color-focus);
+
+  --font-display: var(--oz-font-display), "Arial Narrow", sans-serif;
+  --font-sans: var(--oz-font-body), system-ui, sans-serif;
+  --font-mono: var(--oz-font-mono);
+
+  /* Fluid display sizes: text-d2 … text-d5 */
+  --text-d2: var(--oz-text-2xl);
+  --text-d3: var(--oz-text-3xl);
+  --text-d4: var(--oz-text-4xl);
+  --text-d5: var(--oz-text-5xl);
+
+  --radius-sm: var(--oz-radius-sm);
+  --radius-md: var(--oz-radius-md);
+  --radius-lg: var(--oz-radius-lg);
+
+  --shadow-sm: var(--oz-shadow-sm);
+  --shadow-md: var(--oz-shadow-md);
+  --shadow-lg: var(--oz-shadow-lg);
+
+  --ease-out: var(--oz-ease-out);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--oz-color-bg);
+    color: var(--oz-color-fg);
+    font-family: var(--oz-font-body), system-ui, sans-serif;
+    line-height: 1.55;
+  }
+  :focus-visible {
+    outline: 2px solid var(--oz-color-focus);
+    outline-offset: 2px;
+    border-radius: var(--oz-radius-sm);
+  }
+  ::selection {
+    background: var(--red-500);
+    color: #fff;
+  }
+  a {
+    color: inherit;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  /* Heavy condensed italic display type: the OzLED voice. */
+  .display {
+    font-family: var(--oz-font-display), "Arial Narrow", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.005em;
+    line-height: 0.95;
+  }
+  .eyebrow {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: var(--oz-text-xs);
+  }
+  .container-x {
+    width: 100%;
+    max-width: var(--oz-container);
+    margin-inline: auto;
+    padding-inline: var(--oz-gutter);
+  }
+  .sku {
+    font-family: var(--oz-font-mono);
+    font-size: 0.8125rem;
+    letter-spacing: 0.01em;
+  }
+  /* Long-form content from Neto (descriptions, blog, policies). */
+  .prose-oz {
+    max-width: 72ch;
+    line-height: 1.7;
+  }
+  .prose-oz > * + * {
+    margin-top: 1em;
+  }
+  .prose-oz h2 {
+    font-family: var(--oz-font-display), "Arial Narrow", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: var(--oz-text-2xl);
+    line-height: 1.1;
+    margin-top: 1.6em;
+  }
+  .prose-oz h3,
+  .prose-oz h4 {
+    font-weight: 700;
+    font-size: var(--oz-text-lg);
+    margin-top: 1.4em;
+  }
+  .prose-oz ul {
+    list-style: disc;
+    padding-left: 1.25em;
+  }
+  .prose-oz ol {
+    list-style: decimal;
+    padding-left: 1.25em;
+  }
+  .prose-oz li + li {
+    margin-top: 0.35em;
+  }
+  .prose-oz a {
+    color: var(--oz-color-link);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .prose-oz table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--oz-text-sm);
+  }
+  .prose-oz th,
+  .prose-oz td {
+    border: 1px solid var(--oz-color-border);
+    padding: 0.5em 0.75em;
+    text-align: left;
+  }
+  .prose-oz img {
+    max-width: 100%;
+    height: auto;
+  }
+  .skip-link {
+    position: absolute;
+    left: var(--oz-space-4);
+    top: -100px;
+    z-index: 100;
+    background: var(--oz-color-action);
+    color: var(--oz-color-action-fg);
+    padding: var(--oz-space-2) var(--oz-space-4);
+    border-radius: var(--oz-radius-md);
+  }
+  .skip-link:focus {
+    top: var(--oz-space-2);
+  }
+}
+
+@utility tap {
+  min-height: var(--oz-tap);
+  min-width: var(--oz-tap);
+}

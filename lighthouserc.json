@@ -1,0 +1,75 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "http://localhost:3000/",
+        "http://localhost:3000/led-tail-lights/",
+        "http://localhost:3000/led-autolamps-tail-light-maxilamp-3-series"
+      ],
+      "numberOfRuns": 3,
+      "settings": {
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "seo",
+          "best-practices"
+        ]
+      }
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": [
+          "error",
+          {
+            "minScore": 0.95
+          }
+        ],
+        "categories:accessibility": [
+          "error",
+          {
+            "minScore": 0.95
+          }
+        ],
+        "categories:seo": [
+          "error",
+          {
+            "minScore": 0.95
+          }
+        ],
+        "largest-contentful-paint": [
+          "error",
+          {
+            "maxNumericValue": 2000
+          }
+        ],
+        "cumulative-layout-shift": [
+          "error",
+          {
+            "maxNumericValue": 0.05
+          }
+        ],
+        "resource-summary:script:size": [
+          "error",
+          {
+            "maxNumericValue": 122880
+          }
+        ],
+        "resource-summary:stylesheet:size": [
+          "error",
+          {
+            "maxNumericValue": 40960
+          }
+        ],
+        "resource-summary:font:count": [
+          "error",
+          {
+            "maxNumericValue": 4
+          }
+        ]
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}

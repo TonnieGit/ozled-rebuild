@@ -1,0 +1,187 @@
+/*
+ * OzLED design tokens (SPEC §10).
+ * Raw scales first, then semantic roles. Components use semantic roles only,
+ * so dark mode (and any future re-skin, e.g. Neto checkout) only touches this file.
+ * Contrast notes are against the role's paired surface (WCAG 2.2 AA).
+ */
+
+:root {
+  /* ---- Raw scales ---------------------------------------------------- */
+  --neutral-0: #ffffff;
+  --neutral-50: #f6f7f8;
+  --neutral-100: #eceef0;
+  --neutral-200: #dcdfe3;
+  --neutral-300: #c3c7cd;
+  --neutral-400: #9aa0a8;
+  --neutral-500: #6b7079; /* 4.98:1 on white, min for small text */
+  --neutral-600: #5b6068;
+  --neutral-700: #3b3f45;
+  --neutral-800: #24272b;
+  --neutral-900: #16181b;
+  --neutral-950: #0b0c0e;
+
+  --red-400: #ff4d4f;
+  --red-500: #ed1f24; /* brand red: logo, large display, graphics only (4.35:1) */
+  --red-600: #d7141a; /* action red: white text on it 5.24:1 */
+  --red-700: #b10f14;
+  --red-800: #8a0c10;
+
+  --amber-300: #ffc94d;
+  --amber-400: #f5a400; /* signal amber: indicator/warning accents on dark (9.5:1) */
+  --amber-700: #a35f00; /* amber as text on white (5.0:1) */
+
+  --green-500: #22c55e;
+  --green-700: #15803d;
+  --orange-700: #b45309;
+
+  /* ---- Semantic roles (light, default) ------------------------------- */
+  --oz-color-bg: var(--neutral-0);
+  --oz-color-bg-subtle: var(--neutral-50);
+  --oz-color-bg-muted: var(--neutral-100);
+  --oz-color-surface: var(--neutral-0);
+  --oz-color-surface-raised: var(--neutral-0);
+  --oz-color-fg: var(--neutral-950);
+  --oz-color-fg-muted: var(--neutral-600);
+  --oz-color-fg-subtle: var(--neutral-500);
+  --oz-color-border: var(--neutral-200);
+  --oz-color-border-strong: var(--neutral-300);
+
+  --oz-color-brand: var(--red-500);
+  --oz-color-action: var(--red-600);
+  --oz-color-action-hover: var(--red-700);
+  --oz-color-action-fg: var(--neutral-0);
+  --oz-color-link: var(--red-700);
+
+  --oz-color-signal: var(--amber-400);
+  --oz-color-signal-fg: var(--amber-700);
+
+  --oz-color-success: var(--green-700);
+  --oz-color-warning: var(--orange-700);
+  --oz-color-error: var(--red-700);
+
+  /* Always-dark chrome (header, footer, hero): same in both modes. */
+  --oz-color-chrome: var(--neutral-950);
+  --oz-color-chrome-raised: var(--neutral-900);
+  --oz-color-chrome-fg: var(--neutral-0);
+  --oz-color-chrome-fg-muted: var(--neutral-400);
+  --oz-color-chrome-border: var(--neutral-800);
+
+  --oz-color-focus: var(--red-600);
+
+  /* ---- Type ----------------------------------------------------------- */
+  /* --oz-font-display / --oz-font-body are set by next/font on <html>. */
+  --oz-font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", "Roboto Mono", Menlo, Consolas, monospace;
+
+  /* Fluid scale, ~1.25 ratio; display sizes use the condensed italic face. */
+  --oz-text-xs: 0.75rem;
+  --oz-text-sm: 0.875rem;
+  --oz-text-base: 1rem;
+  --oz-text-lg: 1.125rem;
+  --oz-text-xl: 1.25rem;
+  --oz-text-2xl: clamp(1.375rem, 1.2rem + 0.8vw, 1.625rem);
+  --oz-text-3xl: clamp(1.75rem, 1.4rem + 1.4vw, 2.25rem);
+  --oz-text-4xl: clamp(2.25rem, 1.7rem + 2.4vw, 3.25rem);
+  --oz-text-5xl: clamp(2.75rem, 1.9rem + 3.8vw, 4.75rem);
+
+  /* ---- Space (4-pt) --------------------------------------------------- */
+  --oz-space-1: 0.25rem;
+  --oz-space-2: 0.5rem;
+  --oz-space-3: 0.75rem;
+  --oz-space-4: 1rem;
+  --oz-space-5: 1.25rem;
+  --oz-space-6: 1.5rem;
+  --oz-space-8: 2rem;
+  --oz-space-10: 2.5rem;
+  --oz-space-12: 3rem;
+  --oz-space-16: 4rem;
+  --oz-space-20: 5rem;
+  --oz-space-24: 6rem;
+
+  /* ---- Shape & depth -------------------------------------------------- */
+  --oz-radius-sm: 2px;
+  --oz-radius-md: 4px;
+  --oz-radius-lg: 8px;
+  --oz-radius-pill: 999px;
+
+  --oz-shadow-sm: 0 1px 2px rgb(11 12 14 / 0.06);
+  --oz-shadow-md: 0 4px 12px rgb(11 12 14 / 0.08), 0 1px 3px rgb(11 12 14 / 0.06);
+  --oz-shadow-lg: 0 16px 40px rgb(11 12 14 / 0.16), 0 2px 6px rgb(11 12 14 / 0.08);
+
+  /* ---- Motion --------------------------------------------------------- */
+  --oz-duration-fast: 120ms;
+  --oz-duration-base: 200ms;
+  --oz-duration-slow: 320ms;
+  --oz-ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --oz-ease-in-out: cubic-bezier(0.6, 0, 0.2, 1);
+
+  /* ---- Layout --------------------------------------------------------- */
+  --oz-container: 1360px;
+  --oz-gutter: 1rem;
+  --oz-header-h: 56px;
+  --oz-notice-h: 32px;
+  --oz-tap: 44px;
+
+  color-scheme: light;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --oz-gutter: 2rem;
+    --oz-header-h: 68px;
+  }
+}
+
+/* Dark mode: opt-in by system preference unless the user forced light, or forced dark. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --oz-color-bg: var(--neutral-950);
+    --oz-color-bg-subtle: var(--neutral-900);
+    --oz-color-bg-muted: var(--neutral-800);
+    --oz-color-surface: var(--neutral-900);
+    --oz-color-surface-raised: var(--neutral-800);
+    --oz-color-fg: var(--neutral-50);
+    --oz-color-fg-muted: var(--neutral-300);
+    --oz-color-fg-subtle: var(--neutral-400);
+    --oz-color-border: var(--neutral-800);
+    --oz-color-border-strong: var(--neutral-700);
+    --oz-color-action: var(--red-600);
+    --oz-color-action-hover: var(--red-500);
+    --oz-color-link: var(--red-400);
+    --oz-color-signal-fg: var(--amber-300);
+    --oz-color-success: var(--green-500);
+    --oz-color-warning: var(--amber-400);
+    --oz-color-error: var(--red-400);
+    --oz-color-focus: var(--red-400);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --oz-color-bg: var(--neutral-950);
+  --oz-color-bg-subtle: var(--neutral-900);
+  --oz-color-bg-muted: var(--neutral-800);
+  --oz-color-surface: var(--neutral-900);
+  --oz-color-surface-raised: var(--neutral-800);
+  --oz-color-fg: var(--neutral-50);
+  --oz-color-fg-muted: var(--neutral-300);
+  --oz-color-fg-subtle: var(--neutral-400);
+  --oz-color-border: var(--neutral-800);
+  --oz-color-border-strong: var(--neutral-700);
+  --oz-color-action: var(--red-600);
+  --oz-color-action-hover: var(--red-500);
+  --oz-color-link: var(--red-400);
+  --oz-color-signal-fg: var(--amber-300);
+  --oz-color-success: var(--green-500);
+  --oz-color-warning: var(--amber-400);
+  --oz-color-error: var(--red-400);
+  --oz-color-focus: var(--red-400);
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --oz-duration-fast: 0ms;
+    --oz-duration-base: 0ms;
+    --oz-duration-slow: 0ms;
+  }
+}
