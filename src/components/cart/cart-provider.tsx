@@ -3,7 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { createLocalBag } from "@/lib/cart/local-bag";
 import { createNetoAjaxCart } from "@/lib/cart/neto-ajax";
-import { EMPTY_CART, type CartClient, type CartLine, type CartState } from "@/lib/cart/types";
+import { EMPTY_CART, netoMultiUrl, type CartClient, type CartLine, type CartState } from "@/lib/cart/types";
 
 interface CartContextValue {
   state: CartState;
@@ -21,9 +21,16 @@ interface CartContextValue {
 
 const CartContext = createContext<CartContextValue | null>(null);
 
+const COMMERCE_ORIGIN = process.env.NEXT_PUBLIC_COMMERCE_ORIGIN ?? "https://www.ozled.com.au";
+const NETO_MODE = process.env.NEXT_PUBLIC_CART_MODE === "neto";
+
 function createClient(): CartClient {
-  const commerceOrigin = process.env.NEXT_PUBLIC_COMMERCE_ORIGIN ?? "https://www.ozled.com.au";
-  return process.env.NEXT_PUBLIC_CART_MODE === "neto" ? createNetoAjaxCart() : createLocalBag(commerceOrigin);
+  return NETO_MODE ? createNetoAjaxCart() : createLocalBag(COMMERCE_ORIGIN);
+}
+
+/** Same result as client.checkoutUrl(), computed without touching the client ref during render. */
+function checkoutUrlFor(state: CartState): string {
+  return NETO_MODE ? "/_mycart?fn=payment" : netoMultiUrl(COMMERCE_ORIGIN, state.lines, true);
 }
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
@@ -73,7 +80,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       },
       setQty: (sku, qty) => run((c) => c.setQty(sku, qty)),
       remove: (sku) => run((c) => c.remove(sku)),
-      checkoutUrl: client.current?.checkoutUrl(state) ?? "/_mycart",
+      checkoutUrl: checkoutUrlFor(state),
     }),
     [state, ready, busy, error, open, lastAdded, run],
   );

@@ -1,0 +1,52 @@
+/*
+ * OzLED storefront tokens applied to Neto's cart + checkout (SPEC §6.4).
+ * Load LAST so it overrides theme CSS. Values mirror src/styles/tokens.css.
+ * Selectors target Neto Skeletal/Bootstrap markup: VERIFY against OzLed2021.
+ */
+@font-face { font-family: "Barlow Condensed"; font-style: italic; font-weight: 800; font-display: swap; src: url("../fonts/barlow-condensed-800-italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 100 900; font-display: swap; src: url("../fonts/inter-variable.woff2") format("woff2"); }
+
+:root {
+  --oz-bg: #ffffff; --oz-bg-subtle: #f6f7f8; --oz-fg: #0b0c0e; --oz-fg-muted: #5b6068;
+  --oz-border: #dcdfe3; --oz-border-strong: #c3c7cd; --oz-brand: #ed1f24;
+  --oz-action: #d7141a; --oz-action-hover: #b10f14; --oz-chrome: #0b0c0e; --oz-success: #15803d; --oz-error: #b10f14;
+  --oz-radius: 4px; --oz-radius-lg: 8px;
+}
+
+body { font-family: Inter, system-ui, sans-serif; color: var(--oz-fg); background: var(--oz-bg); line-height: 1.55; }
+h1, h2, .page-header h1, .checkout-heading {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-style: italic; font-weight: 800;
+  text-transform: uppercase; letter-spacing: -0.005em; line-height: 1;
+}
+a { color: var(--oz-action-hover); }
+
+/* Header/footer bands */
+.navbar, header .wrapper-header, #header { background: var(--oz-chrome) !important; color: #fff; border: 0; }
+footer, .wrapper-footer { background: var(--oz-chrome) !important; color: #9aa0a8; border-top: 4px solid var(--oz-brand); }
+
+/* Buttons */
+.btn { border-radius: var(--oz-radius); font-weight: 600; min-height: 44px; }
+.btn-primary, .btn-success, #checkout-button, .btn-checkout {
+  background: var(--oz-action) !important; border-color: var(--oz-action) !important; color: #fff !important;
+}
+.btn-primary:hover, .btn-success:hover, #checkout-button:hover, .btn-checkout:hover { background: var(--oz-action-hover) !important; border-color: var(--oz-action-hover) !important; }
+.btn-default { background: #fff; border: 1px solid var(--oz-border-strong); color: var(--oz-fg); }
+
+/* Forms */
+.form-control, input[type="text"], input[type="email"], input[type="tel"], select {
+  min-height: 44px; border-radius: var(--oz-radius); border: 1px solid var(--oz-border-strong); box-shadow: none; font-size: 16px;
+}
+.form-control:focus, input:focus, select:focus { border-color: var(--oz-action); outline: 2px solid var(--oz-action); outline-offset: 1px; box-shadow: none; }
+label { font-weight: 500; }
+.has-error .form-control { border-color: var(--oz-error); }
+.help-block, .text-danger { color: var(--oz-error); }
+
+/* Panels / summary */
+.panel, .well, .checkout-summary, .cart-summary { border: 1px solid var(--oz-border); border-radius: var(--oz-radius-lg); box-shadow: none; background: #fff; }
+.panel-heading { background: var(--oz-bg-subtle) !important; border-bottom: 1px solid var(--oz-border); font-weight: 700; }
+.table > thead > tr > th { border-bottom: 2px solid var(--oz-border); font-weight: 600; color: var(--oz-fg-muted); }
+.table > tbody > tr > td { border-top: 1px solid var(--oz-border); vertical-align: middle; }
+.alert-success { background: #ecfdf3; border-color: #bbf7d0; color: var(--oz-success); }
+.alert-danger { background: #fef2f2; border-color: #fecaca; color: var(--oz-error); }
+
+/* Keep zoom enabled (SPEC §8.3) – also remove user-scalable=0 from the theme's viewport meta. */

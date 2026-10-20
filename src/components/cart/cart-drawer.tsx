@@ -10,7 +10,7 @@ import { useCart } from "./cart-provider";
 const FREE_SHIPPING_FROM = 99;
 
 /** Slide-over cart (SPEC §6.1). Native <dialog> gives focus trapping and Esc for free. */
-export function CartDrawer() {
+export function CartDrawer({ paymentMethods = [], freeShippingFrom }: { paymentMethods?: string[]; freeShippingFrom?: number }) {
   const { state, open, setOpen, setQty, remove, busy, error, checkoutUrl, lastAdded } = useCart();
   const ref = useRef<HTMLDialogElement>(null);
 
@@ -21,7 +21,8 @@ export function CartDrawer() {
     if (!open && d.open) d.close();
   }, [open]);
 
-  const toFree = Math.max(0, FREE_SHIPPING_FROM - state.subtotal);
+  const threshold = freeShippingFrom ?? FREE_SHIPPING_FROM;
+  const toFree = Math.max(0, threshold - state.subtotal);
 
   return (
     <dialog
@@ -64,7 +65,7 @@ export function CartDrawer() {
             )}
           </p>
           <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-bg-muted" aria-hidden>
-            <div className="h-full bg-action transition-[width] duration-300" style={{ width: `${Math.min(100, (state.subtotal / FREE_SHIPPING_FROM) * 100)}%` }} />
+            <div className="h-full bg-action transition-[width] duration-300" style={{ width: `${Math.min(100, (state.subtotal / threshold) * 100)}%` }} />
           </div>
         </div>
 
@@ -125,7 +126,7 @@ export function CartDrawer() {
             <Icon name="lock" size={18} />
             Secure checkout
           </a>
-          <p className="mt-3 text-center text-xs text-fg-subtle">Card · PayPal · Afterpay · Zip</p>
+          {paymentMethods.length > 0 && <p className="mt-3 text-center text-xs text-fg-subtle">{paymentMethods.join(" · ")}</p>}
         </footer>
       </div>
     </dialog>

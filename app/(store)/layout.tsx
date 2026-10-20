@@ -1,39 +1,5 @@
-import { cacheLife, cacheTag } from "next/cache";
-import { CartDrawer } from "@/components/cart/cart-drawer";
-import { Footer } from "@/components/layout/footer";
-import { Header } from "@/components/layout/header";
-import { buildNav } from "@/components/layout/nav-data";
-import { NoticeStrip } from "@/components/layout/notice-strip";
-import { JsonLd } from "@/components/ui/json-ld";
-import { data } from "@/data";
-import { getSite } from "@/lib/site";
-import { organization, website } from "@/seo/jsonld";
+import { StoreChrome } from "@/components/layout/store-chrome";
 
-/** Chrome data, cached for an hour and revalidated with the catalogue. */
-async function getChrome() {
-  "use cache";
-  cacheLife("hours");
-  cacheTag("catalogue");
-  const [categories, hubs, notices] = await Promise.all([data.getCategoryTree(), data.getApplicationHubs(), data.getBanners("site-notice")]);
-  return { nav: buildNav(categories, hubs), notice: notices[0] };
-}
-
-export default async function StoreLayout({ children }: LayoutProps<"/">) {
-  const { nav, notice } = await getChrome();
-  const site = getSite();
-  return (
-    <>
-      <a href="#main" className="skip-link">
-        Skip to content
-      </a>
-      <NoticeStrip notice={notice} site={site} />
-      <Header nav={nav} site={site} />
-      <main id="main" className="flex-1">
-        {children}
-      </main>
-      <Footer site={site} />
-      <CartDrawer />
-      <JsonLd data={[organization(site), website()]} />
-    </>
-  );
+export default function StoreLayout({ children }: LayoutProps<"/">) {
+  return <StoreChrome>{children}</StoreChrome>;
 }

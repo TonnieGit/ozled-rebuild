@@ -24,7 +24,7 @@ export async function GET() {
     "## Policies",
     `- [Shipping](${absoluteUrl("/shipping-details-terms-conditions")})`,
     `- [Restricted items](${absoluteUrl("/restricted-item-policy/")})`,
-    `- [Trade & fleet](${absoluteUrl("/trade/")})`,
+    `- [Trade & fleet](${absoluteUrl("/trade")})`,
   ];
   return new Response(lines.join("\n") + "\n", { headers: { "Content-Type": "text/plain; charset=utf-8" } });
 }

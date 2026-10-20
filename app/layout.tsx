@@ -1,24 +1,19 @@
 import type { Metadata, Viewport } from "next";
-import { Barlow_Condensed, Inter } from "next/font/google";
+import { Barlow_Condensed } from "next/font/google";
 import { CartProvider } from "@/components/cart/cart-provider";
 import { SITE_URL } from "@/seo/metadata";
 import "./globals.css";
 
 /*
- * Two families, two files (SPEC §11): Barlow Condensed 800 italic for display
- * (the heavy italic OzLED voice), Inter variable for everything else.
+ * One web font file (SPEC §11 budget): Barlow Condensed 800 italic for display,
+ * the heavy italic OzLED voice. Body text uses the system UI stack (0 bytes);
+ * see docs/decisions.md.
  */
 const display = Barlow_Condensed({
   subsets: ["latin"],
   weight: "800",
   style: "italic",
   variable: "--oz-font-display",
-  display: "swap",
-});
-
-const body = Inter({
-  subsets: ["latin"],
-  variable: "--oz-font-body",
   display: "swap",
 });
 
@@ -39,7 +34,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en-AU" className={`${display.variable} ${body.variable}`}>
+    <html lang="en-AU" className={display.variable}>
       <body className="flex min-h-dvh flex-col antialiased">
         <CartProvider>{children}</CartProvider>
       </body>

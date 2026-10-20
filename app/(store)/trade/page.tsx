@@ -13,7 +13,7 @@ export const metadata: Metadata = pageMetadata({
   title: "Trade & Fleet Accounts | OzLED",
   description:
     "Trade pricing on LED vehicle lighting for auto electricians, body builders, fleets and emergency services. Apply for a trade account or request a fleet quote.",
-  path: "/trade/",
+  path: "/trade",
 });
 
 const FAQS = [
@@ -35,7 +35,7 @@ export default function TradePage() {
   const site = getSite();
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Trade & fleet", path: "/trade/" },
+    { name: "Trade & fleet", path: "/trade" },
   ];
   return (
     <>

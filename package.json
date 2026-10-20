@@ -11,7 +11,7 @@
     "test": "vitest run",
     "seo-audit": "node scripts/audit.mjs",
     "lhci": "lhci autorun",
-    "fixtures": "node scripts/fixtures/build.mjs",
+    "fixtures": "node scripts/fixtures/build-all.mjs",
     "check": "pnpm lint && pnpm typecheck && pnpm test"
   },
   "dependencies": {

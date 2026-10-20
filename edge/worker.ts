@@ -35,7 +35,7 @@ export function routeFor(pathname: string): "commerce" | "storefront" {
   return COMMERCE_PREFIXES.some((p) => pathname.startsWith(p)) ? "commerce" : "storefront";
 }
 
-export default {
+const worker = {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
 
@@ -54,3 +54,5 @@ export default {
     return fetch(new Request(target, { method: request.method, headers, body: request.body, redirect: "manual" }));
   },
 };
+
+export default worker;

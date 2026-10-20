@@ -19,7 +19,12 @@ export function DesktopNav({ nav }: { nav: NavData }) {
   const pathname = usePathname();
   const id = useId();
 
-  useEffect(() => setOpen(null), [pathname]);
+  // Close on navigation (render-time reset, not an effect).
+  const [lastPath, setLastPath] = useState(pathname);
+  if (pathname !== lastPath) {
+    setLastPath(pathname);
+    setOpen(null);
+  }
 
   useEffect(() => {
     if (!open) return;

@@ -20,7 +20,7 @@ const EMPTY: Results = { products: [], categories: [], guides: [] };
 /** Header search with an instant results panel (combobox pattern, SPEC §7.8). */
 export function SearchBox({ variant = "header" }: { variant?: "header" | "page" }) {
   const [q, setQ] = useState("");
-  const [results, setResults] = useState<Results>(EMPTY);
+  const [fetched, setResults] = useState<Results>(EMPTY);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
   const router = useRouter();
@@ -29,10 +29,7 @@ export function SearchBox({ variant = "header" }: { variant?: "header" | "page" 
 
   useEffect(() => {
     const term = q.trim();
-    if (term.length < 2) {
-      setResults(EMPTY);
-      return;
-    }
+    if (term.length < 2) return;
     const ctrl = new AbortController();
     const t = setTimeout(() => {
       fetch(`/api/search?q=${encodeURIComponent(term)}`, { signal: ctrl.signal })
@@ -57,6 +54,7 @@ export function SearchBox({ variant = "header" }: { variant?: "header" | "page" 
     return () => document.removeEventListener("mousedown", close);
   }, []);
 
+  const results = q.trim().length < 2 ? EMPTY : fetched;
   const options = [
     ...results.products.map((p) => ({ href: p.path, key: p.sku })),
     ...results.categories.map((c) => ({ href: c.path, key: c.path })),

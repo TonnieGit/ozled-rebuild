@@ -120,17 +120,19 @@ export function product(p: Product, site: SiteInfo) {
         : {}),
       deliveryTime: {
         "@type": "ShippingDeliveryTime",
-        handlingTime: { "@type": "QuantitativeValue", minValue: 0, maxValue: 1, unitCode: "DAY" },
-        transitTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 7, unitCode: "DAY" },
+        // Live shipping policy: dispatch usually 1–2 business days, delivery up to 14 working days.
+        handlingTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 2, unitCode: "DAY" },
+        transitTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 14, unitCode: "DAY" },
       },
     },
     hasMerchantReturnPolicy: {
       "@type": "MerchantReturnPolicy",
       applicableCountry: "AU",
       returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
-      merchantReturnDays: 30,
-      returnMethod: "https://schema.org/ReturnByMail",
-      url: absoluteUrl("/returns-policy"),
+      // Live returns policy: exchanges and refunds within 14 days of purchase.
+      merchantReturnDays: 14,
+      returnMethod: "https://schema.org/ReturnInStore",
+      url: absoluteUrl("/returns-policy/"),
     },
   };
   const r = p.reviews.summary;

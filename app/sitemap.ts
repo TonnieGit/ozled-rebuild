@@ -31,6 +31,6 @@ export default async function sitemap(props: { id: Promise<string> }): Promise<M
   return entries
     .filter((_, i) => keep[i])
     .map((p) => ({ url: absoluteUrl(p.path), ...(p.updatedAt && { lastModified: p.updatedAt }) }))
-    .concat(id === "content" ? [{ url: absoluteUrl("/blog/") }, { url: absoluteUrl("/trade/") }] : [])
+    .concat(id === "content" ? [{ url: absoluteUrl("/blog/") }, { url: absoluteUrl("/trade") }] : [])
     .concat(id === "categories" ? [{ url: absoluteUrl("/") }] : []);
 }

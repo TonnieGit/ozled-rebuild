@@ -5,6 +5,7 @@ import { SearchBox } from "@/components/layout/search-box";
 import { ProductCard } from "@/components/product/product-card";
 import { PageSkeleton } from "@/components/ui/page-skeleton";
 import { data } from "@/data";
+import { nonEmpty } from "@/data/non-empty";
 import { searchAll } from "@/lib/search-index";
 
 // Search pages are noindex (SPEC §7.8).
@@ -73,7 +74,7 @@ async function Results({ searchParams }: PageProps<"/search">) {
 /** Zero-result page suggests hubs and top categories (SPEC §7.8). */
 async function Suggestions() {
   const [hubs, tree] = await Promise.all([data.getApplicationHubs(), data.getCategoryTree()]);
-  const top = tree.filter((c) => c.parentId === null && c.onMenu);
+  const top = (await nonEmpty(tree)).filter((c) => c.parentId === null && c.onMenu);
   return (
     <div className="mt-10 grid gap-10 md:grid-cols-2">
       <section aria-labelledby="sug-jobs">

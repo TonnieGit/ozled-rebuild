@@ -70,14 +70,20 @@ test.describe("SPEC §12 Phase 2 checks", () => {
     await expect(trigger).toBeFocused();
   });
 
-  test("filters update the URL and mark the page noindex", async ({ page }) => {
+  test("filters update the URL; filtered URLs are noindex", async ({ page, request }) => {
     await page.goto("/led-tail-lights/");
+    if (await page.getByRole("button", { name: /^Filters/ }).isVisible()) await page.getByRole("button", { name: /^Filters/ }).click();
     const option = page.getByRole("checkbox").first();
     test.skip((await option.count()) === 0, "no facets");
-    if (await page.getByRole("button", { name: /^Filters/ }).isVisible()) await page.getByRole("button", { name: /^Filters/ }).click();
-    await page.getByRole("checkbox").first().click();
+    await option.click();
     await expect(page).toHaveURL(/\?.+=/);
-    await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
+    const res = await request.get(page.url());
+    expect(res.headers()["x-robots-tag"]).toMatch(/noindex/);
+  });
+
+  test("unknown URLs return a real 404", async ({ request }) => {
+    const res = await request.get("/this-page-does-not-exist-ozled");
+    expect(res.status()).toBe(404);
   });
 
   test("trailing-slash variant redirects in one hop", async ({ request }) => {

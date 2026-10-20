@@ -15,7 +15,12 @@ export function MobileNav({ nav, phone }: { nav: NavData; phone?: { label: strin
   const ref = useRef<HTMLDialogElement>(null);
   const pathname = usePathname();
 
-  useEffect(() => setOpen(false), [pathname]);
+  // Close on navigation (render-time reset, not an effect).
+  const [lastPath, setLastPath] = useState(pathname);
+  if (pathname !== lastPath) {
+    setLastPath(pathname);
+    setOpen(false);
+  }
   useEffect(() => {
     const d = ref.current;
     if (!d) return;
@@ -115,7 +120,7 @@ export function MobileNav({ nav, phone }: { nav: NavData; phone?: { label: strin
                 <Icon name="phone" size={18} /> {phone.label}
               </a>
             ) : (
-              <Link href="/trade/" className="flex items-center justify-center gap-2 bg-chrome py-4">
+              <Link href="/trade" className="flex items-center justify-center gap-2 bg-chrome py-4">
                 Trade
               </Link>
             )}

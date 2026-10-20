@@ -23,7 +23,9 @@ const JOB_FALLBACKS: NavLink[] = [
   { label: "Emergency & Fleet", href: "/emergency-led-warning-lights-vehicle-sirens/", description: "Beacons, light bars and sirens" },
 ];
 
+/** `categories` should already exclude empty ones (no links to 404s, SPEC §8.3). */
 export function buildNav(categories: Category[], hubs: ApplicationHub[]): NavData {
+  const paths = new Set(categories.map((c) => c.path));
   const top = categories.filter((c) => c.parentId === null && c.onMenu).sort((a, b) => a.sortOrder - b.sortOrder);
   const products = top.map((c) => ({
     label: c.navLabel ?? c.name,
@@ -35,7 +37,7 @@ export function buildNav(categories: Category[], hubs: ApplicationHub[]): NavDat
   }));
   const jobs: NavLink[] = [
     ...hubs.map((h) => ({ label: h.navLabel, href: h.path, description: h.summary.split(". ")[0] })),
-    ...JOB_FALLBACKS,
+    ...JOB_FALLBACKS.filter((j) => paths.has(j.href)),
   ];
   return { jobs, products };
 }

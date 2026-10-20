@@ -98,7 +98,7 @@ export async function ProductView({ product: p }: { product: Product }) {
                   Sign in
                 </a>{" "}
                 or{" "}
-                <Link href="/trade/" className="text-link underline">
+                <Link href="/trade" className="text-link underline">
                   apply for trade
                 </Link>
                 .

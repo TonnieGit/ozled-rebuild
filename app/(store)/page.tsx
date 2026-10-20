@@ -7,6 +7,7 @@ import { ProductCard } from "@/components/product/product-card";
 import { JsonLd } from "@/components/ui/json-ld";
 import { Section } from "@/components/ui/section";
 import { data } from "@/data";
+import { nonEmpty } from "@/data/non-empty";
 import { getSite } from "@/lib/site";
 import { localBusiness } from "@/seo/jsonld";
 import { pageMetadata } from "@/seo/metadata";
@@ -29,7 +30,7 @@ async function getHome() {
     data.listProducts({ pageSize: 8, filters: { stock: ["in-stock"] } }),
     data.getBlogPosts({ pageSize: 3 }),
   ]);
-  return { banners, hubs, top: tree.filter((c) => c.parentId === null && c.onMenu), best, posts };
+  return { banners, hubs, top: (await nonEmpty(tree)).filter((c) => c.parentId === null && c.onMenu), best, posts };
 }
 
 export default async function HomePage() {

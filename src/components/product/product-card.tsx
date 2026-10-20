@@ -38,7 +38,8 @@ export function ProductCard({ card, priority = false, headingLevel = 3 }: { card
         </H>
         <Rating average={card.rating.average} count={card.rating.count} />
         <SpecChips specs={card.specs} max={3} />
-        <div className="mt-auto pt-2">
+        {/* min-height reserves the RRP line so prices and buttons align across a row */}
+        <div className="mt-auto min-h-[4.75rem] pt-2">
           <Price price={card.price} rrp={card.rrp} />
           <div className="mt-1 flex items-center justify-between gap-2">
             <StockChip stock={card.stock} />

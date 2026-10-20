@@ -24,7 +24,7 @@ export function NoticeStrip({ notice, site }: { notice?: Banner; site: SiteInfo 
               <Icon name="store" size={15} /> Pickup in {site.address.locality}
             </span>
           )}
-          <Link href="/trade/" className="hover:text-white">
+          <Link href="/trade" className="hover:text-white">
             Trade & fleet
           </Link>
           {site.phone && (

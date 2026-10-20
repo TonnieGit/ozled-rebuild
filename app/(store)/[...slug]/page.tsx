@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
-import { Suspense } from "react";
 import { BlogIndexView } from "@/components/views/blog-index-view";
 import { CategoryView } from "@/components/views/category-view";
 import { ContentView, PostView } from "@/components/views/content-view";
 import { HubView } from "@/components/views/hub-view";
 import { KitView } from "@/components/views/kit-view";
 import { ProductView } from "@/components/views/product-view";
-import { PageSkeleton } from "@/components/ui/page-skeleton";
 import { data } from "@/data";
-import { hasFilters, parseListParams } from "@/data/facets";
-import { isIndexableFilter } from "@/seo/indexable-filters";
 import { pageMetadata } from "@/seo/metadata";
 import { pathToSlug, slugToPath, toggleSlash } from "@/lib/paths";
 
@@ -28,9 +24,13 @@ export async function generateStaticParams() {
 
 type Props = PageProps<"/[...slug]">;
 
-export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
+/**
+ * Metadata never reads searchParams (request-time data would block the static shell).
+ * Filtered listing URLs get `X-Robots-Tag: noindex, follow` from proxy.ts instead,
+ * and every category canonicalises to its clean path (SPEC §7.4).
+ */
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = slugToPath((await params).slug);
-  const sp = await searchParams;
   if (path === BLOG_INDEX_PATH) {
     return pageMetadata({ title: "LED Lighting Guides & News | OzLED", description: "Buying guides, product news and install advice for LED tail lights, trailer lights, light bars and emergency lighting from the OzLED team.", path });
   }
@@ -43,12 +43,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
     }
     case "category": {
       const c = (await data.getCategory(path))!;
-      const opts = parseListParams(sp);
-      const filtered = hasFilters(opts);
-      const indexable = !filtered || isIndexableFilter(path, opts);
-      // Filtered URLs: noindex,follow + canonical to the clean category (SPEC §7.4).
-      const canonicalPath = filtered && !indexable ? path : path + (opts.page && opts.page > 1 && !filtered ? `?page=${opts.page}` : "");
-      return pageMetadata({ ...c.seo, path: canonicalPath, image: c.image, noindex: filtered && !indexable });
+      return pageMetadata({ ...c.seo, path, image: c.image });
     }
     case "hub": {
       const h = (await data.getApplicationHub(path))!;
@@ -69,15 +64,13 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   }
 }
 
-export default function Page(props: Props) {
-  return (
-    <Suspense fallback={<PageSkeleton />}>
-      <Resolved {...props} />
-    </Suspense>
-  );
-}
-
-async function Resolved({ params, searchParams }: Props) {
+/**
+ * The path is resolved OUTSIDE any Suspense boundary so 404s and the one-hop
+ * trailing-slash 301 go out as real HTTP statuses (inside Suspense the 200 shell
+ * would already be streaming). Only the filtered grid, which needs searchParams,
+ * streams (see CategoryView).
+ */
+export default async function Page({ params, searchParams }: Props) {
   const path = slugToPath((await params).slug);
   if (path === BLOG_INDEX_PATH) return <BlogIndexView />;
 
@@ -99,7 +92,7 @@ async function Resolved({ params, searchParams }: Props) {
       // No indexable empty listings (SPEC §8.3).
       const all = await data.getProductsByCategory(c.id, { pageSize: 1 });
       if (all.total === 0) notFound();
-      return <CategoryView category={c} opts={parseListParams(await searchParams)} />;
+      return <CategoryView category={c} searchParams={searchParams} />;
     }
     case "hub": {
       const h = await data.getApplicationHub(path);

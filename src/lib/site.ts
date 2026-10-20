@@ -1,5 +1,7 @@
 import type { SiteInfo } from "./site-types";
 import raw from "@/data/fixtures/site.json";
+import { fixturePaths } from "@/data/path-index";
+import { isCommercePath } from "./commerce";
 
 /**
  * Business facts for the footer and Organization/LocalBusiness JSON-LD.
@@ -33,6 +35,14 @@ function address(v: unknown): SiteInfo["address"] {
   };
 }
 
+const SOCIAL_LABELS: Record<string, string> = {
+  "facebook.com": "Facebook",
+  "instagram.com": "Instagram",
+  "youtube.com": "YouTube",
+  "linkedin.com": "LinkedIn",
+  "g.page": "Google",
+};
+
 const DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 function hours(v: unknown): SiteInfo["hours"] {
@@ -44,6 +54,17 @@ function hours(v: unknown): SiteInfo["hours"] {
   });
 }
 
+/**
+ * While standalone, footer links to live-site pages the pitch build doesn't have
+ * go to the live site, so nothing 404s (Neto mode has every page).
+ */
+const LIVE = (process.env.NEXT_PUBLIC_COMMERCE_ORIGIN ?? "https://www.ozled.com.au").replace(/\/$/, "");
+const known = process.env.DATA_SOURCE === "neto" ? null : fixturePaths();
+function resolveHref(path: string): string {
+  if (!known || isCommercePath(path) || known.has(path)) return path;
+  return `${LIVE}${path}`;
+}
+
 function links(v: unknown): { label: string; href: string }[] {
   return arr<Raw>(v).flatMap((l) => {
     const label = s(l.label) ?? s(l.text) ?? s(l.name);
@@ -51,7 +72,7 @@ function links(v: unknown): { label: string; href: string }[] {
     if (!label || !href) return [];
     try {
       const u = new URL(href, "https://www.ozled.com.au");
-      return [{ label, href: u.hostname === "www.ozled.com.au" ? u.pathname + u.search : u.toString() }];
+      return [{ label, href: u.hostname === "www.ozled.com.au" ? resolveHref(u.pathname) + u.search : u.toString() }];
     } catch {
       return [];
     }
@@ -71,18 +92,22 @@ function build(r: Raw): SiteInfo {
     legalName: s(r.legalName) ?? s(r.name) ?? "OzLED",
     url: "https://www.ozled.com.au",
     abn: s(r.abn) ?? s(r.ABN),
-    phone: phone(r.phone),
+    phone: phone(r.phone ?? r.telephone),
     email: s(r.email),
     address: address(r.address ?? r.showroom),
     geo: Number.isFinite(lat) && Number.isFinite(lng) && (lat || lng) ? { lat, lng } : undefined,
     hours: hours(r.openingHours ?? r.hours),
-    socials: arr<Raw>(r.socials ?? r.social ?? r.socialProfiles).flatMap((x) => {
-      const url = s(x.url) ?? s(x.href);
-      return url ? [{ label: s(x.label) ?? s(x.name) ?? s(x.platform) ?? new URL(url).hostname.replace("www.", ""), url }] : [];
-    }),
+    socials: [...arr<unknown>(r.socials ?? r.social ?? r.socialProfiles), ...arr<unknown>(r.sameAs)].flatMap((x) => {
+      const o = typeof x === "string" ? { url: x } : obj(x);
+      const url = s(o.url) ?? s(o.href);
+      if (!url) return [];
+      const host = new URL(url).hostname.replace(/^www\./, "");
+      const label = s(o.label) ?? s(o.name) ?? SOCIAL_LABELS[host] ?? host;
+      return [{ label, url }];
+    }).filter((x, i, all) => all.findIndex((y) => y.label === x.label) === i),
     foundingYear: Number(r.foundingYear ?? r.founded) || undefined,
     paymentMethods: arr<unknown>(r.paymentMethods).map(String),
-    freeShippingFrom: Number(obj(r.freeShipping).threshold ?? r.freeShippingThreshold ?? r.freeShippingFrom) || undefined,
+    freeShippingFrom: Number(obj(r.shipping).freeShippingThresholdAud ?? obj(r.freeShipping).threshold ?? r.freeShippingThreshold ?? r.freeShippingFrom) || undefined,
     footer,
   };
 }
