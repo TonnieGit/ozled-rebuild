@@ -1,0 +1,83 @@
+[
+  {
+    "path": "/blog/our-blog/before-you-buy-led-tail-lights/",
+    "title": "Before You Buy LED Tail Lights",
+    "excerpt": "What to check before buying aftermarket LED tail lights: ADR approval, compatibility with your vehicle, build quality, style and warranty.",
+    "image": {
+      "src": "/images/posts/before-you-buy-led-tail-lights/hero.webp",
+      "alt": "Close-up of an LED Autolamps 385 Series tail light",
+      "width": 1336,
+      "height": 918
+    },
+    "author": {
+      "name": "Brenton C",
+      "role": "OzLED team"
+    },
+    "publishedAt": "2023-01-10",
+    "reviewedAt": "2026-10-20",
+    "tags": [
+      "tail-lights",
+      "adr",
+      "buying-guide"
+    ],
+    "bodyHtml": "<p>Upgrading your vehicle's tail lights with aftermarket LED lights is a great way to improve its appearance and visibility on the road. Not only do LED lights look more modern and stylish than traditional halogen bulbs, but they are also brighter and more energy efficient. However, with so many options on the market, it can be difficult to know which LED tail lights to choose. That's why we've put together this buying guide to help you find the best ADR approved LED tail lights for your vehicle.</p>\n<p>When shopping for aftermarket LED tail lights, there are a few key factors to consider. First and foremost, you'll want to make sure the lights are ADR approved. ADR stands for Australian Design Rules, and it is a set of standards that ensure vehicles meet minimum safety requirements. ADR approved LED tail lights have undergone testing to ensure they meet these standards, so you can trust that they are safe to use on your vehicle.</p>\n<p>In addition to safety, you'll also want to consider compatibility, quality, style, and warranty. Make sure the LED tail lights you are considering are compatible with your make and model of vehicle, and check to see if any modifications or additional parts are required for installation. Look for LED tail lights that are made from high-quality materials and have a reputation for durability, and avoid cheap, low-quality options as they may not perform as well and could potentially be dangerous. When it comes to style, you have a wide range of options to choose from, so pick a design that complements the overall look of your vehicle and fits your personal taste. Finally, it's always a good idea to look for LED tail lights that come with a warranty, as this will provide you with peace of mind and protection in case anything goes wrong with the product.</p>\n<p>In conclusion, when shopping for aftermarket LED tail lights, prioritize safety and quality over style and price. Look for ADR approved options that are compatible with your vehicle, made from high-quality materials, and come with a warranty. With these tips in mind, you'll be well on your way to finding the perfect LED tail lights for your vehicle.</p>",
+    "seo": {
+      "title": "Before You Buy LED Tail Lights | OzLED",
+      "description": "A buyer's checklist for aftermarket LED tail lights: why ADR approval matters, plus compatibility, quality, style and warranty. From the OzLED team in Brendale."
+    }
+  },
+  {
+    "path": "/blog/our-blog/led-load-resistors/",
+    "title": "LED Load Resistors: Why You Need Them",
+    "excerpt": "Why some vehicles flash fast or show errors after an LED upgrade, how load resistors fix it, and how to wire and mount them safely.",
+    "image": {
+      "src": "/images/posts/led-load-resistors/hero.webp",
+      "alt": "BASE6 12V load resistor being connected into a vehicle wiring loom",
+      "width": 800,
+      "height": 400
+    },
+    "author": {
+      "name": "Brenton C",
+      "role": "OzLED team"
+    },
+    "publishedAt": "2022-03-09",
+    "reviewedAt": "2026-10-20",
+    "tags": [
+      "load-resistors",
+      "tail-lights",
+      "wiring"
+    ],
+    "bodyHtml": "<p>So you're looking to upgrade to LED lights for your Vehicle. Well before you do it’s important to note that some vehicle light systems do not behave the same when using low current drawing LED lights. Sometimes it can result in just a faster-flashing indicator or can at times with some newer vehicles cause other electrical issues such as cruise control not working, dashboard errors and more.</p>\n<p><strong>So what’s the fix?</strong><br>\nThe most reliable solution is to install our purpose-designed <a href=\"/?rf=kw&amp;kw=BASE6+Load+Resistors\">BASE6 load resistors</a>. At a basic level, load resistors are purpose-designed for installation in vehicles where problems result from L.E.D replacement of standard incandescent globes. Suitable for indicator and brake light circuits, LED load resistors are designed to draw the same current as a 21-watt incandescent globe, correcting any problems with low current draw you may be experiencing</p>\n<figure><img src=\"/images/posts/led-load-resistors/1.webp\" alt=\"BASE6 12V and 24V load resistors with a dimension drawing (50 x 28mm)\" width=\"1023\" height=\"350\" loading=\"lazy\"></figure>\n<p>As a general rule of thumb, we will always suggest when upgrading to LED lights on your vehicle, that you consider at least one pair of load resistors to compensate on the indicator circuit.</p>\n<p>The alternative is to fit a non-load sensitive flasher or a flasher with a measured load matching the LED load, but this is not always practical with many newer vehicles using the body control module to handle these functions.</p>\n<figure><img src=\"/images/posts/led-load-resistors/2.webp\" alt=\"BASE6 12V load resistor being connected into a vehicle wiring loom\" width=\"800\" height=\"400\" loading=\"lazy\"></figure>\n<p><strong>So how do I install these? </strong></p>\n<p>As a rule of thumb, load resistors should <strong>ALWAYS </strong>be wired between the input wires of the lamp,<strong> NOT the chassis</strong> of the vehicle or trailer! If fitted to the Chassis, a bad earth connection is possible and can result in problems with the lighting system of the vehicle. Further, LED Load resistors must be mounted on a metal surface, the resistor can reach temperatures of up to 170 Celsius.</p>\n<p>The most common functions requiring Load Resistors are generally the indicator and brake circuits. However, this is not gospel and some newer vehicles have been known to require resistors on EVERY function! If in doubt about what functions your vehicle needs load resistors on, contact your local auto electrician who can access your vehicle in detail.</p>\n<figure><img src=\"/images/posts/led-load-resistors/3.webp\" alt=\"Wiring diagram: load resistor connected between the lamp's power and earth wires\" width=\"581\" height=\"459\" loading=\"lazy\"></figure>\n<p><strong>Other Considerations:</strong></p>\n<p>We mentioned it above but I can't stress this enough, LED Load resistors do generate heat, it is advisable that they are mounted directly to the solid metal of the vehicle, <strong>DO NOT tape the resistors up in the loom!!!</strong></p>\n<p>Many new vehicles utilise CANBUS electrical systems, if you are not confident with working with these types of systems, we suggest you contact and Qualified Auto Electrician or your motor vehicle dealer.</p>\n<p>The BASE6 Load Resistors are a simple and effective solution to this problem, replacing the load that has been reduced by fitting LED lamps for standard incandescent lamps. They are also available in both <a href=\"/~179411\">12-volt</a> and <a href=\"/~180344\">24-volt</a> options.</p>",
+    "seo": {
+      "title": "LED Load Resistors: Why You Need Them | OzLED",
+      "description": "Why LED upgrades can cause fast flashing or dash errors, how load resistors fix it, and how to wire and mount them: always on metal, never to the chassis."
+    }
+  },
+  {
+    "path": "/blog/our-blog/screw-in-or-bolt-on-rear-combination-lamps/",
+    "title": "Screw In or Bolt On Rear Combination Lamps",
+    "excerpt": "The LED Autolamps 283 Series rear combination lamps can be screwed on or bolted from behind, with a 25mm low profile, IP67 rating and 5-year warranty.",
+    "image": {
+      "src": "/images/posts/screw-in-or-bolt-on-rear-combination-lamps/hero.webp",
+      "alt": "LED Autolamps 283 Series rear combination lamps with removable mounting bracket and fittings",
+      "width": 1600,
+      "height": 698
+    },
+    "author": {
+      "name": "LED Autolamps",
+      "role": "Manufacturer (guest post)"
+    },
+    "publishedAt": "2020-02-06",
+    "reviewedAt": "2026-10-20",
+    "tags": [
+      "tail-lights",
+      "led-autolamps",
+      "product-news"
+    ],
+    "bodyHtml": "<p>If you need a rear combination lighting solution that enables you to surface mount with a screw fit or bolt-on application at an affordable price then LED Autolamps have just released the perfect product. Introducing the 283 series lamps. Featuring a removable mounting bracket that gives the end user the choice of screw in with included stainless steel screws or use the supplied stainless-steel bolts to install from the rear of the fitting surface.</p>\n<p>These lamps have all necessary functions in a sleek modern design with a stop/tail/Indicator and a Stop/Tail/Indicator/Reverse, both with ADR compliant inbuilt reflex reflectors built into the assembly. Measuring 283mm x 100mm they also offer a super low profile of only 25mm that not only offers protection against unwanted impact damage but is up to 40% less than other similar lamps on the market. Perfect fit for small to medium vehicles trailers and caravans.</p>\n<p>Australia’s harsh climate and road conditions will challenge any external product, but rest assured your investment will outshine long after the others have long since given up…The hardened acrylic lens is UV and impact resistant with the base and removable dual fitting bracket constructed of tough ABS plastic. All this as well as stainless steel bolts and screws with 30cm of sheathed tinned copper wire for added corrosion protection.</p>\n<p>A Specially designed lens with enhanced optical performance, amplify the 48 High powered SMD LEDs. Delivering a super bright even spread output that not only looks incredible but exceeds all required Australian Road standards. Available in a useful 12-24 voltage range or as a 12 volt only version perfect for Caravan manufacturers. They also have a low current draw on electrical systems and are fully submersible and tested to IP67 water and dust ingress protection.</p>\n<p>The new 283 series from LED Autolamps offers a clean modern design with no visible screws or fittings and with the screw or bolt on option as well as a peace of mind 5-year warranty you won’t be disappointed. Available to order in a retail blister pack for the 12/24 volt and bulk boxed for the 12 volts only options.</p>",
+    "seo": {
+      "title": "Screw In or Bolt On Rear Combination Lamps | OzLED",
+      "description": "LED Autolamps 283 Series rear combination lamps: screw-on or bolt-on mounting, 283 x 100 x 25mm, 48 SMD LEDs, IP67, 12–24V or 12V, 5-year warranty."
+    }
+  }
+]

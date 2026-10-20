@@ -1,0 +1,195 @@
+{
+  "name": "OzLED",
+  "legalName": "OzLED Pty Ltd",
+  "abn": "83 588 378 102",
+  "url": "https://www.ozled.com.au/",
+  "logo": "/brand/ozled-logo.png",
+  "telephone": "(07) 3205 4355",
+  "telephoneE164": "+61732054355",
+  "email": "sales@ozled.com.au",
+  "address": {
+    "streetAddress": "U1/218 Leitchs Road",
+    "addressLocality": "Brendale",
+    "addressRegion": "QLD",
+    "postalCode": "4500",
+    "addressCountry": "AU"
+  },
+  "geo": {
+    "latitude": -27.3226757,
+    "longitude": 152.9798889
+  },
+  "openingHours": [
+    {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "17:00"
+    }
+  ],
+  "history": [
+    {
+      "year": 1979,
+      "event": "Established as Multisound Enterprises to supply emergency lighting and sirens"
+    },
+    {
+      "year": 2005,
+      "event": "Renamed OzLED Pty Ltd"
+    },
+    {
+      "year": 2013,
+      "event": "Launched its own brand, BASE6"
+    }
+  ],
+  "foundingYear": 1979,
+  "ownBrand": {
+    "name": "BASE6",
+    "launched": 2013,
+    "path": "/base6/"
+  },
+  "parentOrganization": {
+    "name": "OzLED Group",
+    "url": "https://ozledgroup.com.au/"
+  },
+  "sameAs": [
+    "https://www.facebook.com/ozledlighting/",
+    "https://www.instagram.com/ozled_aus/",
+    "https://www.youtube.com/channel/UCyuHpeoZRduX3wSICPsSuEQ",
+    "https://www.youtube.com/user/OzLEDPtyLtd",
+    "http://www.linkedin.com/company/ozled-australia-pty-ltd",
+    "https://g.page/ozledlighting"
+  ],
+  "paymentMethods": [
+    "Visa",
+    "Mastercard",
+    "PayPal",
+    "Afterpay"
+  ],
+  "shipping": {
+    "freeShippingThresholdAud": 99,
+    "freeShippingConditions": [
+      "Product subtotal must exceed $99.00 AUD, inclusive of GST",
+      "Retail and member customers only (not trade accounts)",
+      "Australian addresses only",
+      "Excludes some items and select suburbs due to high shipping costs"
+    ],
+    "dispatch": "Usually 1–2 business days",
+    "delivery": "Up to 14 working days within Australia once fulfilled from the warehouse",
+    "pickup": "Pickup in store at Brendale for items shown as 'Instock - Online & Pickup Instore'",
+    "policyPath": "/shipping-details-terms-conditions",
+    "conditionsPath": "/Free-Shipping-Conditions"
+  },
+  "footer": [
+    {
+      "heading": "Service",
+      "links": [
+        {
+          "label": "My Account",
+          "href": "/_myacct"
+        },
+        {
+          "label": "Track Order",
+          "href": "/_myacct/nr_track_order"
+        },
+        {
+          "label": "Trade Account Registration",
+          "href": "/form/register-trade/"
+        },
+        {
+          "label": "Resolution Centre",
+          "href": "/myacct/warranty"
+        },
+        {
+          "label": "Log Out",
+          "href": "/_myacct/logout"
+        }
+      ]
+    },
+    {
+      "heading": "About Us",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "/about-us/"
+        },
+        {
+          "label": "Our Blog",
+          "href": "/blog/our-blog/"
+        },
+        {
+          "label": "Contact Us",
+          "href": "/form/contact-us/"
+        },
+        {
+          "label": "BluePrint",
+          "href": "/blueprint/"
+        },
+        {
+          "label": "SoundOff Signal Flash Patterns",
+          "href": null,
+          "liveHref": "<iframe width=",
+          "note": "Broken link on the live site (href is a fragment of an iframe embed)"
+        }
+      ]
+    },
+    {
+      "heading": "Information",
+      "links": [
+        {
+          "label": "Terms of Use",
+          "href": "/website-terms-of-use/"
+        },
+        {
+          "label": "Shipping Policy",
+          "href": "/shipping-details-terms-conditions"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy-policy/"
+        },
+        {
+          "label": "Returns Policy",
+          "href": "/returns-policy/"
+        },
+        {
+          "label": "Security Policy",
+          "href": "/security-policy/"
+        },
+        {
+          "label": "Restricted Item Policy",
+          "href": "/restricted-item-policy/"
+        }
+      ]
+    },
+    {
+      "heading": "Contact",
+      "links": [
+        {
+          "label": "(07) 3205 4355",
+          "href": "tel:0732054355"
+        },
+        {
+          "label": "sales@ozled.com.au",
+          "href": "mailto:sales@ozled.com.au"
+        },
+        {
+          "label": "U1/218 Leitchs Road Brendale, QLD 4500",
+          "href": "/store-finder/"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "note": "All values are as stated on www.ozled.com.au on 2026-10-20.",
+    "openingHours": "Homepage LocalBusiness JSON-LD (lists opens as '08;00', a typo for 08:00). Hours are not shown in visible page text.",
+    "geo": "Homepage LocalBusiness JSON-LD",
+    "legalName": "About Us page ('name change in 2005 to OzLED Pty Ltd')",
+    "abn": "Footer",
+    "paymentMethods": "Payment icons on product pages (footer shows Afterpay only)",
+    "sameAs": "Footer social icons and homepage JSON-LD. Two different YouTube URLs are used. The JSON-LD Instagram link points to a single post, not the profile, so the footer profile is used."
+  }
+}

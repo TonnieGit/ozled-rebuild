@@ -1,0 +1,80 @@
+[
+  {
+    "id": "hero-tail-lights",
+    "slot": "home-hero",
+    "headline": "LED tail lights for trays, trucks and trailers",
+    "subhead": "Combination, plug-and-play and trailer lamps from LED Autolamps, Narva and Roadvision, plus the plates, plugs and brackets to fit them.",
+    "ctaLabel": "Build your tray lighting",
+    "ctaUrl": "/ute-tray-lights/",
+    "image": {
+      "desktop": {
+        "src": "/images/banners/tail-lights-desktop.webp",
+        "alt": "Close-up of an LED Autolamps 385 Series tail light on a dark background",
+        "width": 1600,
+        "height": 408
+      },
+      "mobile": {
+        "src": "/images/banners/tail-lights-mobile.webp",
+        "alt": "Close-up of an LED Autolamps 385 Series tail light on a dark background",
+        "width": 800,
+        "height": 550
+      }
+    },
+    "sortOrder": 1
+  },
+  {
+    "id": "hero-off-road",
+    "slot": "home-hero",
+    "headline": "Light bars, driving lights and work lights",
+    "subhead": "Off-road LED lighting for 4WDs and work utes, including BASE6, OzLED's own brand since 2013.",
+    "ctaLabel": "Shop off-road lighting",
+    "ctaUrl": "/off-road-led-lights/",
+    "image": {
+      "desktop": {
+        "src": "/images/banners/off-road-desktop.webp",
+        "alt": "Red Ford Raptor driving on a dirt track with an LED light bar fitted to the front bar",
+        "width": 1600,
+        "height": 408
+      },
+      "mobile": {
+        "src": "/images/banners/off-road-mobile.webp",
+        "alt": "Red Ford Raptor driving on a dirt track with an LED light bar fitted to the front bar",
+        "width": 800,
+        "height": 363
+      }
+    },
+    "sortOrder": 2
+  },
+  {
+    "id": "hero-showroom",
+    "slot": "home-hero",
+    "headline": "Order online or pick up in Brendale",
+    "subhead": "Visit the OzLED showroom at U1/218 Leitchs Road, Brendale QLD, or call (07) 3205 4355 for advice.",
+    "ctaLabel": "Contact the team",
+    "ctaUrl": "/form/contact-us/",
+    "image": {
+      "desktop": {
+        "src": "/images/banners/showroom-desktop.webp",
+        "alt": "Classic Ford Mustang parked outside the OzLED showroom in Brendale",
+        "width": 1600,
+        "height": 900
+      },
+      "mobile": {
+        "src": "/images/banners/showroom-mobile.webp",
+        "alt": "Classic Ford Mustang parked outside the OzLED showroom in Brendale",
+        "width": 800,
+        "height": 600
+      }
+    },
+    "sortOrder": 3
+  },
+  {
+    "id": "notice-shipping-pickup",
+    "slot": "site-notice",
+    "headline": "Free shipping on orders over $99* · Pickup from our Brendale showroom",
+    "subhead": "*Retail and member orders to Australian addresses. Excludes some items and select suburbs due to high shipping costs.",
+    "ctaLabel": "Free shipping conditions",
+    "ctaUrl": "/Free-Shipping-Conditions",
+    "sortOrder": 1
+  }
+]

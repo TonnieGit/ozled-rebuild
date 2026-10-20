@@ -1,0 +1,1931 @@
+[
+  {
+    "id": "tail-lights",
+    "parentId": null,
+    "name": "LED Tail Lights",
+    "navLabel": "Tail Lights",
+    "path": "/led-tail-lights/",
+    "intro": "LED tail lights for utes, trays, trucks, trailers and caravans, including combination, single-function, plug-and-play and trailer lamps.",
+    "bodyHtml": "<h2>Types of LED tail lights</h2>\n<ul>\n<li><a href=\"/led-combination-tail-lights/\">Combination tail lights</a> combine stop, tail and indicator (and often reverse) in one lamp, for trucks, trailers, caravans and ute trays.</li>\n<li><a href=\"/led-trailer-tail-lights/\">Trailer tail lights</a> suit boat, box and camper trailers, including fully submersible lamps.</li>\n<li><a href=\"/single-function-led-tail-lights/\">Single-function tail lights</a> do one job each, so you can build a custom rear light set-up.</li>\n<li><a href=\"/plug-and-play-led-tail-lights/\">Plug-and-play tail lights</a> plug into your vehicle's loom with a vehicle-specific patch lead, with no cutting or splicing.</li>\n<li><a href=\"/led-tail-light-accessories-brackets/\">Tail light accessories</a> include brackets, patch leads and adaptor leads.</li>\n</ul>\n<h2>What to check before you buy</h2>\n<p>Check the approval stated on each product (ADR approved with a CRN, or ECE approved), the voltage (12V only or 12–24V multivolt), the IP rating and the dimensions against your mounting space. Some vehicles also need <a href=\"/circuit-protection/\">load resistors</a> to stop light-failure warnings or fast flashing after an LED upgrade.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [
+      {
+        "question": "Are LED tail lights ADR approved?",
+        "answer": "Many are, but not all. Each product page lists the approval the manufacturer states, such as ADR approved with a CRN number or ECE approved. Check the specs of the exact lamp, and mount it as the manufacturer describes with reference to ADR 13/00."
+      },
+      {
+        "question": "Do LED tail lights need load resistors?",
+        "answer": "Some vehicles show a light-failure warning or fast indicator flash because LED lamps draw much less current than globes. A load resistor fitted between the lamp's input wires adds that load back. LED Autolamps resistors must be mounted on metal, as they can reach about 170°C."
+      },
+      {
+        "question": "What is the difference between plug-and-play and hard-wired tail lights?",
+        "answer": "Plug-and-play kits use a vehicle-specific patch lead that plugs into the existing tail light loom, with a DT04-6P connector on the lamp side, so no cutting or splicing is needed. Hard-wired lamps have bare wires that are joined to the vehicle or trailer wiring."
+      },
+      {
+        "question": "Are plug-and-play tail light kits ADR compliant?",
+        "answer": "The lamps themselves can be ADR approved, but OzLED notes that plug-and-play patch lead systems fall outside the ADR because of the load resistors built into the harness. Contact the team if you need advice for your vehicle."
+      }
+    ],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "LED Tail Lights | OzLED",
+      "description": "LED tail lights for utes, trays, trucks, trailers and caravans: combination, plug-and-play and trailer lamps from LED Autolamps, Narva and more at OzLED."
+    }
+  },
+  {
+    "id": "plug-and-play-tail-lights",
+    "parentId": "tail-lights",
+    "name": "Plug and Play LED Tail Lights",
+    "path": "/plug-and-play-led-tail-lights/",
+    "intro": "Plug-and-play tail light kits connect to your ute's existing loom with vehicle-specific patch leads, so there is no cutting or splicing.",
+    "bodyHtml": "<h2>How plug-and-play tail lights install</h2>\n<p>Remove your old tail lights, plug the lamp's harness into a vehicle-specific patch lead, then plug the patch lead into your vehicle's wiring loom. Kits include the patch leads for the vehicle you select from the options list, and most include pre-wired load resistors.</p>\n<p>The lamps are ADR or ECE approved, but plug-and-play patch lead systems themselves fall outside the ADR because of the load resistors built into the harness.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [
+      {
+        "question": "What is the difference between plug-and-play and hard-wired tail lights?",
+        "answer": "Plug-and-play kits use a vehicle-specific patch lead that plugs into the existing tail light loom, with a DT04-6P connector on the lamp side, so no cutting or splicing is needed. Hard-wired lamps have bare wires that are joined to the vehicle or trailer wiring."
+      },
+      {
+        "question": "Are plug-and-play tail light kits ADR compliant?",
+        "answer": "The lamps themselves can be ADR approved, but OzLED notes that plug-and-play patch lead systems fall outside the ADR because of the load resistors built into the harness. Contact the team if you need advice for your vehicle."
+      }
+    ],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Plug and Play LED Tail Lights | OzLED",
+      "description": "Plug-and-play tail light kits connect to your ute's existing loom with vehicle-specific patch leads, so there is no cutting or splicing. Shop online at OzLED."
+    }
+  },
+  {
+    "id": "combination-tail-lights",
+    "parentId": "tail-lights",
+    "name": "Combination Tail Lights",
+    "navLabel": "Combination Tail Lights",
+    "path": "/led-combination-tail-lights/",
+    "intro": "Combination LED tail lights combine stop, tail and indicator, often with reverse and a reflector, in one lamp for trays, trucks, trailers and caravans.",
+    "bodyHtml": "<p>Combination LED tail lights put several functions in one housing: stop, tail and indicator, and often reverse and a reflector. They suit trucks, trailers, caravans and ute trays. Popular ranges include the LED Autolamps Maxilamp, 385 and 3854 series, available as single lamps, pairs and plug-and-play kits.</p>\n<p>Each product page lists the lamp's approval, voltage, IP rating and dimensions, plus the manufacturer's data sheet. LED Autolamps refers to ADR 13/00 for mounting.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [
+      {
+        "question": "What is a combination tail light?",
+        "answer": "A combination tail light houses several functions in one lamp, typically stop, tail and indicator, and often reverse and a reflector. They are common on ute trays, trucks, trailers and caravans."
+      },
+      {
+        "question": "Do combination tail lights come in pairs?",
+        "answer": "It depends on the listing. Some lamps are sold individually and others as a twin pack or kit. The product name states 'Single', 'Pair' or 'Twin Pack', so check it before ordering two."
+      },
+      {
+        "question": "Will 12–24V tail lights work on a 12V ute?",
+        "answer": "Yes. Lamps listed as multivolt 12–24V work on both 12V and 24V systems. Lamps listed as 12V only should not be used on a 24V truck."
+      }
+    ],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Combination LED Tail Lights | OzLED",
+      "description": "Combination LED tail lights with stop, tail, indicator and reverse for ute trays, trucks, trailers and caravans, including Maxilamp and 385 series."
+    }
+  },
+  {
+    "id": "single-function-tail-lights",
+    "parentId": "tail-lights",
+    "name": "Single Function Tail Lights",
+    "path": "/single-function-led-tail-lights/",
+    "intro": "Single-function LED lamps provide one job each, such as stop/tail, indicator or reverse, so you can build a custom rear light set-up.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Single Function Tail Lights | OzLED",
+      "description": "Single-function LED lamps provide one job each, such as stop/tail, indicator or reverse, so you can build a custom rear light set-up. Shop online at OzLED."
+    }
+  },
+  {
+    "id": "trailer-tail-lights",
+    "parentId": "tail-lights",
+    "name": "LED Trailer Tail Lights",
+    "path": "/led-trailer-tail-lights/",
+    "intro": "LED trailer tail lights for box, boat and camper trailers, including submersible lamps and kits with licence plate lights.",
+    "bodyHtml": "<p>LED trailer tail lights replace globe lamps on box, boat and camper trailers. For boat trailers, choose lamps described as fully submersible with an IP67 or IP68 rating, such as the LED Autolamps 207 and 210 series.</p>\n<p>You'll also need a licence plate light (some trailer lamps include one), a trailer plug that matches your tow vehicle's socket, and reflectors. Plug-in cable kits make wiring longer trailers faster.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [
+      {
+        "question": "What lights does a trailer need?",
+        "answer": "A trailer generally needs stop, tail and indicator lamps on each side, rear reflectors and a licence plate light, with side and end-outline markers on larger trailers. The exact requirements depend on the trailer's size and class, so check the ADRs and your state registration authority."
+      },
+      {
+        "question": "Are submersible trailer lights suitable for boat trailers?",
+        "answer": "Lamps described as fully submersible, such as the LED Autolamps 207 and 210 series, are designed for boat trailers that are backed into water. Check the IP rating on the product page; IP67 and IP68 lamps are sealed against water."
+      },
+      {
+        "question": "Which trailer plug do I need?",
+        "answer": "Match the plug to the socket on your tow vehicle. Light trailers commonly use a 7-pin flat plug, while caravans and heavier trailers often use 7-pin round or 12-pin connectors."
+      }
+    ],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "LED Trailer Tail Lights | OzLED",
+      "description": "LED trailer tail lights for box, boat and camper trailers, including submersible lamps and kits with licence plate lights. Shop online at OzLED."
+    }
+  },
+  {
+    "id": "tail-light-accessories",
+    "parentId": "tail-lights",
+    "name": "Tail Light Accessories",
+    "navLabel": "Tail Light Accessories",
+    "path": "/led-tail-light-accessories-brackets/",
+    "intro": "Brackets, vehicle patch leads, adaptor leads and reflectors for fitting LED tail lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "Tail Light Accessories | OzLED",
+      "description": "Brackets, vehicle patch leads, adaptor leads and reflectors for fitting LED tail lights. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "licence-plate-lights",
+    "parentId": "tail-lights",
+    "name": "LED Licence Plate Lights",
+    "path": "/led-licence-plate-lights/",
+    "intro": "LED licence plate lights to light your rear number plate on utes, trays, trucks and trailers.",
+    "bodyHtml": "<p>An LED licence plate light illuminates your rear number plate. Check the fitting instructions for each lamp: some LED Autolamps lamps need two lamps fitted to meet ADR approval, and each lamp has a specified mounting distance from the plate.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 6,
+    "seo": {
+      "title": "LED Licence Plate Lights | OzLED",
+      "description": "LED licence plate lights to light your rear number plate on utes, trays, trucks and trailers. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "licence-plate-accessories",
+    "parentId": "licence-plate-lights",
+    "name": "Licence Plate Lights, Brackets and Accessories",
+    "navLabel": "Licence Plate Brackets",
+    "path": "/Licence-Plate-Accessories",
+    "intro": "Licence plate lights, mounting brackets and related accessories.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Licence Plate Lights, Brackets and Accessories | OzLED",
+      "description": "Licence plate lights, mounting brackets and related accessories. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "bulbs-headlights",
+    "parentId": null,
+    "name": "LED Bulbs & Conversions",
+    "navLabel": "Bulbs & Headlights",
+    "path": "/led-headlights",
+    "intro": "LED replacement bulbs and headlight conversion kits for cars, 4WDs and trucks.",
+    "bodyHtml": "<p>Browse LED Bulbs &amp; Conversions by type:</p>\n<ul>\n<li><a href=\"/LED-Headlight-Conversions\">LED Headlight Conversions</a></li>\n<li><a href=\"/drl-fog-light-bulbs/\">DRL &amp; Fog Light Bulbs</a></li>\n<li><a href=\"/Vehicle-Specific-LED-Bulb-Kits\">Vehicle Specific LED Bulb Kits</a></li>\n<li><a href=\"/LED-Wedge-Bulbs\">Wedge Bulbs</a></li>\n<li><a href=\"/LED-Bayonet-Bulbs\">Bayonet Bulbs</a></li>\n<li><a href=\"/LED-Festoon-Bulbs\">Festoon Bulbs</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "LED Headlights & Bulbs | OzLED",
+      "description": "LED replacement bulbs and headlight conversion kits for cars, 4WDs and trucks. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "headlight-conversions",
+    "parentId": "bulbs-headlights",
+    "name": "LED Headlight Conversions",
+    "path": "/LED-Headlight-Conversions",
+    "intro": "LED headlight conversion bulbs that replace halogen headlight globes.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "LED Headlight Conversions | OzLED",
+      "description": "LED headlight conversion bulbs that replace halogen headlight globes. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "drl-fog-bulbs",
+    "parentId": "bulbs-headlights",
+    "name": "DRL & Fog Light Bulbs",
+    "path": "/drl-fog-light-bulbs/",
+    "intro": "LED bulbs for daytime running lights and fog lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "DRL & Fog Light Bulbs | OzLED",
+      "description": "LED bulbs for daytime running lights and fog lights. Part of the OzLED Bulbs & Headlights range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "vehicle-specific-bulb-kits",
+    "parentId": "bulbs-headlights",
+    "name": "Vehicle Specific LED Bulb Kits",
+    "path": "/Vehicle-Specific-LED-Bulb-Kits",
+    "intro": "LED bulb kits matched to specific vehicle models.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Vehicle Specific LED Bulb Kits | OzLED",
+      "description": "LED bulb kits matched to specific vehicle models. Part of the OzLED Bulbs & Headlights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "wedge-bulbs",
+    "parentId": "bulbs-headlights",
+    "name": "Wedge Bulbs",
+    "path": "/LED-Wedge-Bulbs",
+    "intro": "LED wedge-base bulbs for parkers, interior, dash and marker lamps.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "Wedge Bulbs | OzLED",
+      "description": "LED wedge-base bulbs for parkers, interior, dash and marker lamps. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "bayonet-bulbs",
+    "parentId": "bulbs-headlights",
+    "name": "Bayonet Bulbs",
+    "path": "/LED-Bayonet-Bulbs",
+    "intro": "LED bayonet-base bulbs to replace stop, tail, indicator and interior globes.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "Bayonet Bulbs | OzLED",
+      "description": "LED bayonet-base bulbs to replace stop, tail, indicator and interior globes. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "festoon-bulbs",
+    "parentId": "bulbs-headlights",
+    "name": "Festoon Bulbs",
+    "path": "/LED-Festoon-Bulbs",
+    "intro": "LED festoon bulbs for interior, map and licence plate lamps.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 6,
+    "seo": {
+      "title": "Festoon Bulbs | OzLED",
+      "description": "LED festoon bulbs for interior, map and licence plate lamps. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "driving-light-bars",
+    "parentId": null,
+    "name": "Off-Road LED Lighting",
+    "navLabel": "Driving & Light Bars",
+    "path": "/off-road-led-lights/",
+    "intro": "Off-road LED driving lights, light bars and mounting hardware for 4WDs, utes and work vehicles.",
+    "bodyHtml": "<p>Browse Off-Road LED Lighting by type:</p>\n<ul>\n<li><a href=\"/offroad-4wd-led-driving-lights/\">LED Driving Lights</a></li>\n<li><a href=\"/led-light-bars-for-work-and-4x4-vehicles/\">LED Light Bars</a></li>\n<li><a href=\"/off-road-bullbar-mounting-brackets-accessories/\">Mounting Hardware &amp; Accessories</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "LED Driving Lights & Light Bars | OzLED",
+      "description": "Off-road LED driving lights, light bars and mounting hardware for 4WDs, utes and work vehicles. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "driving-lights",
+    "parentId": "driving-light-bars",
+    "name": "LED Driving Lights",
+    "path": "/offroad-4wd-led-driving-lights/",
+    "intro": "Round and hex LED driving lights for 4WDs and touring vehicles, from 7-inch to 9-inch.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "LED Driving Lights | OzLED",
+      "description": "Round and hex LED driving lights for 4WDs and touring vehicles, from 7-inch to 9-inch. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "light-bars",
+    "parentId": "driving-light-bars",
+    "name": "LED Light Bars",
+    "path": "/led-light-bars-for-work-and-4x4-vehicles/",
+    "intro": "LED light bars in spot, flood and combo beams for 4WDs, utes and work vehicles.",
+    "bodyHtml": "<p>LED light bars add auxiliary lighting for 4WDs, utes and work vehicles. OzLED's own BASE6 range includes the Stealth, DR, LUX curved, Aggressor and Combat series, in a range of lengths and spot, flood or combo beams.</p>\n<p>Rules for using light bars on the road vary by state, so check your state's requirements before fitting one.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [
+      {
+        "question": "Are LED light bars road legal?",
+        "answer": "Rules vary from state to state, so check your state's requirements before fitting and using one. As a general rule, auxiliary driving lamps may only operate with your high beam, and light bars are often for off-road use only."
+      },
+      {
+        "question": "What is the difference between spot, flood and combo beams?",
+        "answer": "A spot beam is narrow and reaches further down the road, a flood beam spreads light wide and close, and a combo bar mixes spot optics in the centre with flood optics at the ends."
+      },
+      {
+        "question": "What does an IP68 or IP69K rating mean on a light bar?",
+        "answer": "IP68 means the light is dust tight and protected against continuous submersion. IP69K adds protection against high-pressure, high-temperature water jets, such as wash-down."
+      }
+    ],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "LED Light Bars | OzLED",
+      "description": "LED light bars in spot, flood and combo beams for 4WDs, utes and work vehicles. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "off-road-mounting",
+    "parentId": "driving-light-bars",
+    "name": "Mounting Hardware & Accessories",
+    "path": "/off-road-bullbar-mounting-brackets-accessories/",
+    "intro": "Brackets and mounting hardware for fitting driving lights and light bars to bullbars and roof racks.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Mounting Hardware & Accessories | OzLED",
+      "description": "Brackets and mounting hardware for fitting driving lights and light bars to bullbars and roof racks. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "work-lights",
+    "parentId": null,
+    "name": "LED Work Lights",
+    "navLabel": "Work Lights",
+    "path": "/led-work-lights/",
+    "intro": "LED work lights in flood and spot beams for trays, canopies, machinery and campsites.",
+    "bodyHtml": "<p>LED work lights light up a work area around a vehicle, tray, canopy or machine. The BASE6 range includes the compact 3-inch Cube series (also in marine white), the HD series built for mining work and the Sniper series. Check each product's IP rating, voltage range and beam pattern.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [
+      {
+        "question": "Should I choose a spot or flood work light?",
+        "answer": "Flood beams light a wide area close to the vehicle, such as a tray, campsite or work area. Spot beams throw a narrower beam further away."
+      },
+      {
+        "question": "Can work lights be used while driving?",
+        "answer": "Work lights are designed for lighting a work area while stationary or at low speed, not as road driving lights. Check your state's rules for auxiliary lamps."
+      },
+      {
+        "question": "Are BASE6 work lights waterproof?",
+        "answer": "The BASE6 Cube series is rated IP68 and IP69K and the HD series is rated IP68, according to their product listings. Check each product's specs for its rating."
+      }
+    ],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "LED Work Lights | OzLED",
+      "description": "LED work lights in flood and spot beams for trays, canopies, machinery and campsites. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "indicators-markers",
+    "parentId": null,
+    "name": "LED Indicator & Bullbar Lamps",
+    "navLabel": "Indicators & Markers",
+    "path": "/led-indicator-lights-and-bullbar-lamps/",
+    "intro": "LED indicators, daytime running lights, bullbar lamps and marker lights for cars, 4WDs, trucks and trailers.",
+    "bodyHtml": "<p>Browse LED Indicator &amp; Bullbar Lamps by type:</p>\n<ul>\n<li><a href=\"/led-daytime-running-lights/\">Daytime Running Lights</a></li>\n<li><a href=\"/side-indicators/\">Side Indicators</a></li>\n<li><a href=\"/automotive/led-indicator-lights-bullbar-lamps/bullbar-lighting/\">Bullbar Lighting</a></li>\n<li><a href=\"/trailer-led-lights/\">Truck &amp; Trailer LED Lights</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "LED Indicators & Marker Lights | OzLED",
+      "description": "LED indicators, daytime running lights, bullbar lamps and marker lights for cars, 4WDs, trucks and trailers. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "daytime-running-lights",
+    "parentId": "indicators-markers",
+    "name": "Daytime Running Lights",
+    "path": "/led-daytime-running-lights/",
+    "intro": "LED daytime running lights and DRL modules to make your vehicle easier to see by day.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Daytime Running Lights | OzLED",
+      "description": "LED daytime running lights and DRL modules to make your vehicle easier to see by day. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "side-indicators",
+    "parentId": "indicators-markers",
+    "name": "Side Indicators",
+    "path": "/side-indicators/",
+    "intro": "LED side indicator lamps for cars, 4WDs and trucks.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Side Indicators | OzLED",
+      "description": "LED side indicator lamps for cars, 4WDs and trucks. Part of the OzLED Indicators & Markers range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "bullbar-lighting",
+    "parentId": "indicators-markers",
+    "name": "Bullbar Lighting",
+    "path": "/automotive/led-indicator-lights-bullbar-lamps/bullbar-lighting/",
+    "intro": "LED front indicator and park lamps that fit common bullbar cut-outs.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Bullbar Lighting | OzLED",
+      "description": "LED front indicator and park lamps that fit common bullbar cut-outs. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "truck-trailer-lights",
+    "parentId": "indicators-markers",
+    "name": "Truck & Trailer LED Lights",
+    "path": "/trailer-led-lights/",
+    "intro": "LED lights for trucks and trailers, including marker lights, licence plate lights and trailer accessories.",
+    "bodyHtml": "<p>Browse Truck &amp; Trailer LED Lights by type:</p>\n<ul>\n<li><a href=\"/automotive-led-marker-lights/\">LED Marker Lights</a></li>\n<li><a href=\"/trailer-accessories/\">Trailer Accessories</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "Truck & Trailer LED Lights | OzLED",
+      "description": "LED lights for trucks and trailers, including marker lights, licence plate lights and trailer accessories. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "marker-lights",
+    "parentId": "truck-trailer-lights",
+    "name": "LED Marker Lights",
+    "path": "/automotive-led-marker-lights/",
+    "intro": "LED clearance, side and end-outline marker lights for trucks, trailers and caravans.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "LED Marker Lights | OzLED",
+      "description": "LED clearance, side and end-outline marker lights for trucks, trailers and caravans. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "trailer-accessories",
+    "parentId": "truck-trailer-lights",
+    "name": "Trailer Accessories",
+    "path": "/trailer-accessories/",
+    "intro": "Trailer cables, plug-in cable kits, connectors and reflectors.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Trailer Accessories | OzLED",
+      "description": "Trailer cables, plug-in cable kits, connectors and reflectors. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "warning-emergency",
+    "parentId": null,
+    "name": "Warning & Emergency",
+    "navLabel": "Warning & Emergency",
+    "path": "/emergency-led-warning-lights-vehicle-sirens/",
+    "intro": "LED warning light bars, beacons, perimeter lights, sirens and control systems for work, tow, mining and emergency vehicles.",
+    "bodyHtml": "<p>Browse Warning &amp; Emergency by type:</p>\n<ul>\n<li><a href=\"/led-light-kits-and-vehicle-packages/\">LED Light Kits &amp; Vehicle Packages</a></li>\n<li><a href=\"/led-warning-light-bars/\">LED Warning Light Bars</a></li>\n<li><a href=\"/perimeter-lights/\">LED Perimeter Lights</a></li>\n<li><a href=\"/led-dash-deck-lighting/\">Dash &amp; Deck Lighting</a></li>\n<li><a href=\"/warning-emergency/led-beacon-lights/\">LED Beacon Lights</a></li>\n<li><a href=\"/emergency-sirens-and-control-panel-systems/\">Sirens &amp; Control Systems</a></li>\n<li><a href=\"/personal-safety-led-lights/\">Personal Safety Lighting</a></li>\n<li><a href=\"/led-traffic-arrow-control-lighting/\">Arrow &amp; Traffic Control Lighting</a></li>\n<li><a href=\"/warning-emergency/mpower-lighting-by-soundoff-signal/\">mPower® Lighting by SoundOff Signal</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 6,
+    "seo": {
+      "title": "LED Warning & Emergency Lights | OzLED",
+      "description": "LED warning light bars, beacons, perimeter lights, sirens and control systems for work, tow, mining and emergency vehicles. Shop online at OzLED."
+    }
+  },
+  {
+    "id": "light-kits-packages",
+    "parentId": "warning-emergency",
+    "name": "LED Light Kits & Vehicle Packages",
+    "path": "/led-light-kits-and-vehicle-packages/",
+    "intro": "Warning light kits and vehicle packages for trade, tow and fleet vehicles.",
+    "bodyHtml": "<p>Browse LED Light Kits &amp; Vehicle Packages by type:</p>\n<ul>\n<li><a href=\"/warning-emergency/vehicle-packages/police-vehicle-kits/\">Red &amp; Blue Restricted Kits</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "LED Light Kits & Vehicle Packages | OzLED",
+      "description": "Warning light kits and vehicle packages for trade, tow and fleet vehicles. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "red-blue-restricted-kits",
+    "parentId": "light-kits-packages",
+    "name": "Red & Blue Restricted Kits",
+    "path": "/warning-emergency/vehicle-packages/police-vehicle-kits/",
+    "intro": "Red and blue warning light kits for authorised emergency vehicles. These are restricted items under OzLED's Restricted Item Policy.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Red & Blue Restricted Kits | OzLED",
+      "description": "Red and blue warning light kits for authorised emergency vehicles. These are restricted items under OzLED's Restricted Item Policy. Shop online at OzLED."
+    }
+  },
+  {
+    "id": "warning-light-bars",
+    "parentId": "warning-emergency",
+    "name": "LED Warning Light Bars",
+    "path": "/led-warning-light-bars/",
+    "intro": "Amber and multi-colour LED warning light bars, from micro bars to full-size roof bars.",
+    "bodyHtml": "<p>Browse LED Warning Light Bars by type:</p>\n<ul>\n<li><a href=\"/base6-guardian-light-bars\">BASE6 Guardian LED Light Bars</a></li>\n<li><a href=\"/warning-emergency/led-warning-light-bars/micro-small-led-light-bars/\">Micro / Small LED Light Bars</a></li>\n<li><a href=\"/warning-emergency/led-warning-light-bars/full-size-led-light-bars/\">Full Size LED Light Bars</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "LED Warning Light Bars | OzLED",
+      "description": "Amber and multi-colour LED warning light bars, from micro bars to full-size roof bars. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "guardian-light-bars",
+    "parentId": "warning-light-bars",
+    "name": "BASE6 Guardian LED Light Bars",
+    "path": "/base6-guardian-light-bars",
+    "intro": "BASE6 Guardian warning light bars combining warning and white scene lighting.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "BASE6 Guardian LED Light Bars | OzLED",
+      "description": "BASE6 Guardian warning light bars combining warning and white scene lighting. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "micro-light-bars",
+    "parentId": "warning-light-bars",
+    "name": "Micro / Small LED Light Bars",
+    "path": "/warning-emergency/led-warning-light-bars/micro-small-led-light-bars/",
+    "intro": "Compact micro and mini warning light bars for vehicles with limited roof space.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Micro / Small LED Light Bars | OzLED",
+      "description": "Compact micro and mini warning light bars for vehicles with limited roof space. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "full-size-light-bars",
+    "parentId": "warning-light-bars",
+    "name": "Full Size LED Light Bars",
+    "path": "/warning-emergency/led-warning-light-bars/full-size-led-light-bars/",
+    "intro": "Full-size LED warning light bars for maximum roof-top coverage.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Full Size LED Light Bars | OzLED",
+      "description": "Full-size LED warning light bars for maximum roof-top coverage. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "perimeter-lights",
+    "parentId": "warning-emergency",
+    "name": "LED Perimeter Lights",
+    "path": "/perimeter-lights/",
+    "intro": "Compact LED warning lights mounted around a vehicle's body, grille and bumpers.",
+    "bodyHtml": "<p>Browse LED Perimeter Lights by type:</p>\n<ul>\n<li><a href=\"/warning-emergency/perimeter-led-lights/hideaway-led-lights/\">Hideaway LED Lights</a></li>\n<li><a href=\"/warning-emergency/perimeter-led-lights/surface-mount-perimeter-lights/\">Surface Mount Perimeter Lights</a></li>\n<li><a href=\"/warning-emergency/perimeter-led-lights/off-road-dust-lights/\">Off-Road Dust Lights</a></li>\n<li><a href=\"/warning-emergency/perimeter-led-lights/led-bonnet-lights/\">Bonnet Mount Warning Lights</a></li>\n<li><a href=\"/perimeter-light-accessories/\">Perimeter Light Accessories</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "LED Perimeter Lights | OzLED",
+      "description": "Compact LED warning lights mounted around a vehicle's body, grille and bumpers. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "hideaway-lights",
+    "parentId": "perimeter-lights",
+    "name": "Hideaway LED Lights",
+    "path": "/warning-emergency/perimeter-led-lights/hideaway-led-lights/",
+    "intro": "Hideaway LED warning lights that mount inside existing vehicle light housings.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Hideaway LED Lights | OzLED",
+      "description": "Hideaway LED warning lights that mount inside existing vehicle light housings. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "surface-mount-perimeter-lights",
+    "parentId": "perimeter-lights",
+    "name": "Surface Mount Perimeter Lights",
+    "path": "/warning-emergency/perimeter-led-lights/surface-mount-perimeter-lights/",
+    "intro": "Surface-mount LED perimeter warning lights and strobe modules.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Surface Mount Perimeter Lights | OzLED",
+      "description": "Surface-mount LED perimeter warning lights and strobe modules. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "off-road-dust-lights",
+    "parentId": "perimeter-lights",
+    "name": "Off-Road Dust Lights",
+    "path": "/warning-emergency/perimeter-led-lights/off-road-dust-lights/",
+    "intro": "Dust lights that help other drivers see vehicles in dusty conditions, such as mine sites.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Off-Road Dust Lights | OzLED",
+      "description": "Dust lights that help other drivers see vehicles in dusty conditions, such as mine sites. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "bonnet-warning-lights",
+    "parentId": "perimeter-lights",
+    "name": "Bonnet Mount Warning Lights",
+    "path": "/warning-emergency/perimeter-led-lights/led-bonnet-lights/",
+    "intro": "LED warning lights designed to mount on a vehicle's bonnet.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "Bonnet Mount Warning Lights | OzLED",
+      "description": "LED warning lights designed to mount on a vehicle's bonnet. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "perimeter-light-accessories",
+    "parentId": "perimeter-lights",
+    "name": "Perimeter Light Accessories",
+    "path": "/perimeter-light-accessories/",
+    "intro": "Brackets, bezels and accessories for perimeter warning lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "Perimeter Light Accessories | OzLED",
+      "description": "Brackets, bezels and accessories for perimeter warning lights. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "dash-deck-lighting",
+    "parentId": "warning-emergency",
+    "name": "Dash & Deck Lighting",
+    "path": "/led-dash-deck-lighting/",
+    "intro": "Interior windscreen, dash and rear deck LED warning lights.",
+    "bodyHtml": "<p>Browse Dash &amp; Deck Lighting by type:</p>\n<ul>\n<li><a href=\"/warning-emergency/covert-lighting/dash-led-lights/\">Windscreen Mount &amp; Dash LED Lights</a></li>\n<li><a href=\"/warning-emergency/covert-lighting/deck-led-lights/\">Rear Window &amp; Deck LED Lights</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "Dash & Deck Lighting | OzLED",
+      "description": "Interior windscreen, dash and rear deck LED warning lights. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "dash-lights",
+    "parentId": "dash-deck-lighting",
+    "name": "Windscreen Mount & Dash LED Lights",
+    "path": "/warning-emergency/covert-lighting/dash-led-lights/",
+    "intro": "LED warning lights that mount inside the windscreen or on the dash.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Windscreen Mount & Dash LED Lights | OzLED",
+      "description": "LED warning lights that mount inside the windscreen or on the dash. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "deck-lights",
+    "parentId": "dash-deck-lighting",
+    "name": "Rear Window & Deck LED Lights",
+    "path": "/warning-emergency/covert-lighting/deck-led-lights/",
+    "intro": "LED warning lights for rear windows and rear parcel decks.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Rear Window & Deck LED Lights | OzLED",
+      "description": "LED warning lights for rear windows and rear parcel decks. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "beacons",
+    "parentId": "warning-emergency",
+    "name": "LED Beacon Lights",
+    "path": "/warning-emergency/led-beacon-lights/",
+    "intro": "LED warning beacons in magnetic, surface-mount and micro light bar styles for work and mining vehicles.",
+    "bodyHtml": "<p>Browse LED Beacon Lights by type:</p>\n<ul>\n<li><a href=\"/Magnetic-Beacons\">Magnetic Beacons</a></li>\n<li><a href=\"/warning-emergency/led-beacon-lights/surface-mounted-beacons/\">Surface Mounted Beacons</a></li>\n<li><a href=\"/warning-emergency/led-beacon-lights/micro-lightbar-beacons/\">Micro Lightbar Beacons</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "LED Beacon Lights | OzLED",
+      "description": "LED warning beacons in magnetic, surface-mount and micro light bar styles for work and mining vehicles. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "magnetic-beacons",
+    "parentId": "beacons",
+    "name": "Magnetic Beacons",
+    "path": "/Magnetic-Beacons",
+    "intro": "Magnetic-mount LED beacons that can be fitted and removed without tools.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Magnetic Beacons | OzLED",
+      "description": "Magnetic-mount LED beacons that can be fitted and removed without tools. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "surface-mounted-beacons",
+    "parentId": "beacons",
+    "name": "Surface Mounted Beacons",
+    "path": "/warning-emergency/led-beacon-lights/surface-mounted-beacons/",
+    "intro": "Surface-mount LED beacons for permanent installation.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Surface Mounted Beacons | OzLED",
+      "description": "Surface-mount LED beacons for permanent installation. Part of the OzLED LED Beacon Lights range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "micro-lightbar-beacons",
+    "parentId": "beacons",
+    "name": "Micro Lightbar Beacons",
+    "path": "/warning-emergency/led-beacon-lights/micro-lightbar-beacons/",
+    "intro": "Low-profile micro light bars used in place of a single beacon.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Micro Lightbar Beacons | OzLED",
+      "description": "Low-profile micro light bars used in place of a single beacon. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "sirens-control",
+    "parentId": "warning-emergency",
+    "name": "Sirens & Control Systems",
+    "path": "/emergency-sirens-and-control-panel-systems/",
+    "intro": "Sirens, speakers, control panels and control systems for warning and emergency vehicles.",
+    "bodyHtml": "<p>Browse Sirens &amp; Control Systems by type:</p>\n<ul>\n<li><a href=\"/warning-emergency/sirens-control-systems/siren-speakers/\">Siren Speakers</a></li>\n<li><a href=\"/emergency-siren-units/\">Emergency Siren Units</a></li>\n<li><a href=\"/warning-emergency/sirens-control-systems/blueprint-control-system/\">BluePrint Control System</a></li>\n<li><a href=\"/warning-control-panels/\">Warning Control Panels</a></li>\n<li><a href=\"/siren-bundles/\">Siren Bundles</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 6,
+    "seo": {
+      "title": "Sirens & Control Systems | OzLED",
+      "description": "Sirens, speakers, control panels and control systems for warning and emergency vehicles. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "siren-speakers",
+    "parentId": "sirens-control",
+    "name": "Siren Speakers",
+    "path": "/warning-emergency/sirens-control-systems/siren-speakers/",
+    "intro": "Siren speakers for use with emergency siren amplifiers.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Siren Speakers | OzLED",
+      "description": "Siren speakers for use with emergency siren amplifiers. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "siren-units",
+    "parentId": "sirens-control",
+    "name": "Emergency Siren Units",
+    "path": "/emergency-siren-units/",
+    "intro": "Emergency siren amplifier units. Sirens capable of emergency vehicle outputs are restricted items.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Emergency Siren Units | OzLED",
+      "description": "Emergency siren amplifier units. Sirens capable of emergency vehicle outputs are restricted items. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "blueprint-control",
+    "parentId": "sirens-control",
+    "name": "BluePrint Control System",
+    "path": "/warning-emergency/sirens-control-systems/blueprint-control-system/",
+    "intro": "The SoundOff Signal BluePrint system for controlling vehicle warning lights and sirens.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "BluePrint Control System | OzLED",
+      "description": "The SoundOff Signal BluePrint system for controlling vehicle warning lights and sirens. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "warning-control-panels",
+    "parentId": "sirens-control",
+    "name": "Warning Control Panels",
+    "path": "/warning-control-panels/",
+    "intro": "Switch and control panels for operating warning lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "Warning Control Panels | OzLED",
+      "description": "Switch and control panels for operating warning lights. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "siren-bundles",
+    "parentId": "sirens-control",
+    "name": "Siren Bundles",
+    "path": "/siren-bundles/",
+    "intro": "Siren and speaker bundles.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "Siren Bundles | OzLED",
+      "description": "Siren and speaker bundles. Part of the OzLED Sirens & Control Systems range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "personal-safety",
+    "parentId": "warning-emergency",
+    "name": "Personal Safety Lighting",
+    "path": "/personal-safety-led-lights/",
+    "intro": "Personal safety lights, scene lights and LED road flares for roadside and emergency work.",
+    "bodyHtml": "<p>Browse Personal Safety Lighting by type:</p>\n<ul>\n<li><a href=\"/safety-scene-led-lights/\">Safety Scene Lights</a></li>\n<li><a href=\"/guardian-angel\">Guardian Angel</a></li>\n<li><a href=\"/led-road-flares/\">LED Road Flares</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 7,
+    "seo": {
+      "title": "Personal Safety Lighting | OzLED",
+      "description": "Personal safety lights, scene lights and LED road flares for roadside and emergency work. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "safety-scene-lights",
+    "parentId": "personal-safety",
+    "name": "Safety Scene Lights",
+    "path": "/safety-scene-led-lights/",
+    "intro": "Portable LED scene lights for lighting a work or incident area.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Safety Scene Lights | OzLED",
+      "description": "Portable LED scene lights for lighting a work or incident area. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "guardian-angel",
+    "parentId": "personal-safety",
+    "name": "Guardian Angel",
+    "path": "/guardian-angel",
+    "intro": "Guardian Angel wearable personal safety lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Guardian Angel | OzLED",
+      "description": "Guardian Angel wearable personal safety lights. Part of the OzLED Personal Safety Lighting range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "led-road-flares",
+    "parentId": "personal-safety",
+    "name": "LED Road Flares",
+    "path": "/led-road-flares/",
+    "intro": "Reusable LED road flares for marking hazards and traffic control.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "LED Road Flares | OzLED",
+      "description": "Reusable LED road flares for marking hazards and traffic control. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "arrow-traffic",
+    "parentId": "warning-emergency",
+    "name": "Arrow & Traffic Control Lighting",
+    "path": "/led-traffic-arrow-control-lighting/",
+    "intro": "Directional LED lighting and traffic arrow boards for road work vehicles.",
+    "bodyHtml": "<p>Browse Arrow &amp; Traffic Control Lighting by type:</p>\n<ul>\n<li><a href=\"/directional-led-lighting/\">Directional LED Lighting</a></li>\n<li><a href=\"/led-traffic-arrow-boards/\">Traffic Arrow Boards</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 8,
+    "seo": {
+      "title": "Arrow & Traffic Control Lighting | OzLED",
+      "description": "Directional LED lighting and traffic arrow boards for road work vehicles. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "directional-lighting",
+    "parentId": "arrow-traffic",
+    "name": "Directional LED Lighting",
+    "path": "/directional-led-lighting/",
+    "intro": "Directional LED light sticks for guiding traffic around a vehicle.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Directional LED Lighting | OzLED",
+      "description": "Directional LED light sticks for guiding traffic around a vehicle. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "arrow-boards",
+    "parentId": "arrow-traffic",
+    "name": "Traffic Arrow Boards",
+    "path": "/led-traffic-arrow-boards/",
+    "intro": "Vehicle-mounted LED traffic arrow boards.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Traffic Arrow Boards | OzLED",
+      "description": "Vehicle-mounted LED traffic arrow boards. Part of the OzLED Arrow & Traffic Control Lighting range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "mpower",
+    "parentId": "warning-emergency",
+    "name": "mPower® Lighting by SoundOff Signal",
+    "navLabel": "mPower® by SoundOff Signal",
+    "path": "/warning-emergency/mpower-lighting-by-soundoff-signal/",
+    "intro": "SoundOff Signal mPower® LED lights for warning, scene and utility use.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 9,
+    "seo": {
+      "title": "mPower® Lighting by SoundOff Signal | OzLED",
+      "description": "SoundOff Signal mPower® LED lights for warning, scene and utility use. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "camping-interior",
+    "parentId": null,
+    "name": "Camping & Outdoors",
+    "navLabel": "Camping & Interior",
+    "path": "/leisure-led-lights/",
+    "intro": "LED lighting for camping, caravans, RVs and boats, including amber lights, strip lights and interior lights.",
+    "bodyHtml": "<p>Browse Camping &amp; Outdoors by type:</p>\n<ul>\n<li><a href=\"/caravan-campervan-rv-led-lights/\">Caravan &amp; RV Lighting</a></li>\n<li><a href=\"/boating-and-marine-led-lighting/\">Boating &amp; Marine</a></li>\n<li><a href=\"/led-camping-lights/\">LED Camping Lights</a></li>\n<li><a href=\"/AmberLEDLights\">Amber LED Outdoor and Camping Lights</a></li>\n<li><a href=\"/camping-outdoors/flexible-led-strips-and-accessories/\">Flexible LED Strips and Accessories</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 7,
+    "seo": {
+      "title": "Camping, Caravan & Marine LED Lights | OzLED",
+      "description": "LED lighting for camping, caravans, RVs and boats, including amber lights, strip lights and interior lights. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "caravan-rv",
+    "parentId": "camping-interior",
+    "name": "Caravan & RV Lighting",
+    "path": "/caravan-campervan-rv-led-lights/",
+    "intro": "Interior and exterior LED lighting for caravans, campervans and RVs.",
+    "bodyHtml": "<p>Browse Caravan &amp; RV Lighting by type:</p>\n<ul>\n<li><a href=\"/caravan-rv-lighting/interior-led-lighting/\">Interior LED Lighting</a></li>\n<li><a href=\"/external-caravan-led-lighting/\">External Caravan Lighting</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Caravan & RV Lighting | OzLED",
+      "description": "Interior and exterior LED lighting for caravans, campervans and RVs. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "caravan-interior",
+    "parentId": "caravan-rv",
+    "name": "Interior LED Lighting",
+    "path": "/caravan-rv-lighting/interior-led-lighting/",
+    "intro": "LED interior lights for caravans and RVs.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Interior LED Lighting | OzLED",
+      "description": "LED interior lights for caravans and RVs. Part of the OzLED Caravan & RV Lighting range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "caravan-exterior",
+    "parentId": "caravan-rv",
+    "name": "External Caravan Lighting",
+    "path": "/external-caravan-led-lighting/",
+    "intro": "LED awning, annex and exterior lights for caravans.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "External Caravan Lighting | OzLED",
+      "description": "LED awning, annex and exterior lights for caravans. Part of the OzLED Caravan & RV Lighting range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "boating-marine",
+    "parentId": "camping-interior",
+    "name": "Boating & Marine",
+    "path": "/boating-and-marine-led-lighting/",
+    "intro": "Marine-grade LED work, flood, strip, navigation and interior lighting for boats.",
+    "bodyHtml": "<p>Browse Boating &amp; Marine by type:</p>\n<ul>\n<li><a href=\"/marine-grade-work-lights/\">Marine Grade Work Lights</a></li>\n<li><a href=\"/Marine-Strip-Lighting\">Marine Strip Lighting</a></li>\n<li><a href=\"/navigational-marine-led-lighting/\">Navigational Marine LED Lighting</a></li>\n<li><a href=\"/marine-grade-led-flood-lights/\">Marine Grade Flood Lights</a></li>\n<li><a href=\"/boating-marine/marine-interior-lighting/\">Marine Interior LED's</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Boating & Marine | OzLED",
+      "description": "Marine-grade LED work, flood, strip, navigation and interior lighting for boats. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "marine-work-lights",
+    "parentId": "boating-marine",
+    "name": "Marine Grade Work Lights",
+    "path": "/marine-grade-work-lights/",
+    "intro": "Marine-grade LED work lights for boats and coastal use.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Marine Grade Work Lights | OzLED",
+      "description": "Marine-grade LED work lights for boats and coastal use. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "marine-strip-lighting",
+    "parentId": "boating-marine",
+    "name": "Marine Strip Lighting",
+    "path": "/Marine-Strip-Lighting",
+    "intro": "Sealed LED strip lights for marine use.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Marine Strip Lighting | OzLED",
+      "description": "Sealed LED strip lights for marine use. Part of the OzLED Boating & Marine range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "navigation-lights",
+    "parentId": "boating-marine",
+    "name": "Navigational Marine LED Lighting",
+    "path": "/navigational-marine-led-lighting/",
+    "intro": "LED navigation lights for boats.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Navigational Marine LED Lighting | OzLED",
+      "description": "LED navigation lights for boats. Part of the OzLED Boating & Marine range. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "marine-flood-lights",
+    "parentId": "boating-marine",
+    "name": "Marine Grade Flood Lights",
+    "path": "/marine-grade-led-flood-lights/",
+    "intro": "Marine-grade LED flood lights for decks and boat ramps.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "Marine Grade Flood Lights | OzLED",
+      "description": "Marine-grade LED flood lights for decks and boat ramps. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "marine-interior",
+    "parentId": "boating-marine",
+    "name": "Marine Interior LED's",
+    "navLabel": "Marine Interior LEDs",
+    "path": "/boating-marine/marine-interior-lighting/",
+    "intro": "LED interior lights for boat cabins.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "Marine Interior LED's | OzLED",
+      "description": "LED interior lights for boat cabins. Part of the OzLED Boating & Marine range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "camping-lights",
+    "parentId": "camping-interior",
+    "name": "LED Camping Lights",
+    "path": "/led-camping-lights/",
+    "intro": "LED camping lights, lanterns, torches, rigid strip lights and general-purpose 12V lighting.",
+    "bodyHtml": "<p>Browse LED Camping Lights by type:</p>\n<ul>\n<li><a href=\"/led-flashlights-torches-and-headlamps/\">Torches &amp; Headlamps</a></li>\n<li><a href=\"/marine-camping-rv-led-lighting/general-lighting/\">General Lighting</a></li>\n<li><a href=\"/rigid-led-strip-lighting/\">Rigid LED Strip Lights</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "LED Camping Lights | OzLED",
+      "description": "LED camping lights, lanterns, torches, rigid strip lights and general-purpose 12V lighting. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "torches-headlamps",
+    "parentId": "camping-lights",
+    "name": "Torches & Headlamps",
+    "path": "/led-flashlights-torches-and-headlamps/",
+    "intro": "LED torches, flashlights and headlamps.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Torches & Headlamps | OzLED",
+      "description": "LED torches, flashlights and headlamps. Part of the OzLED LED Camping Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "general-lighting",
+    "parentId": "camping-lights",
+    "name": "General Lighting",
+    "path": "/marine-camping-rv-led-lighting/general-lighting/",
+    "intro": "General-purpose 12V LED lights for camps, caravans and boats.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "General Lighting | OzLED",
+      "description": "General-purpose 12V LED lights for camps, caravans and boats. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "rigid-strip-lights",
+    "parentId": "camping-lights",
+    "name": "Rigid LED Strip Lights",
+    "path": "/rigid-led-strip-lighting/",
+    "intro": "Rigid aluminium LED strip lights and accessories.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Rigid LED Strip Lights | OzLED",
+      "description": "Rigid aluminium LED strip lights and accessories. Part of the OzLED LED Camping Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "amber-lights",
+    "parentId": "camping-interior",
+    "name": "Amber LED Outdoor and Camping Lights",
+    "navLabel": "Amber Camping Lights",
+    "path": "/AmberLEDLights",
+    "intro": "Amber LED lights for camping, which attract fewer insects than white light.",
+    "bodyHtml": "<p>Amber light attracts fewer insects than white light, which makes it popular for campsites, awnings and canopies. The range includes BASE6 rigid strip lights and rock lights and LED Autolamps dual-colour awning lights.</p>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "Amber LED Camping Lights | OzLED",
+      "description": "Amber LED lights for camping, which attract fewer insects than white light. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "flexible-led-strips",
+    "parentId": "camping-interior",
+    "name": "Flexible LED Strips and Accessories",
+    "navLabel": "Flexible LED Strips",
+    "path": "/camping-outdoors/flexible-led-strips-and-accessories/",
+    "intro": "Flexible 12V LED strip lighting, controllers and power supplies.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "Flexible LED Strips and Accessories | OzLED",
+      "description": "Flexible 12V LED strip lighting, controllers and power supplies. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "wiring-plugs-switches",
+    "parentId": null,
+    "name": "Automotive Accessories",
+    "navLabel": "Wiring, Plugs & Switches",
+    "path": "/automotive-accessories/",
+    "intro": "Switches, connectors, plugs and sockets, wiring harnesses, circuit protection and towing gear for vehicle lighting.",
+    "bodyHtml": "<p>Browse Automotive Accessories by type:</p>\n<ul>\n<li><a href=\"/switch-panels-and-connectors/\">Switches, Connectors &amp; Panels</a></li>\n<li><a href=\"/led-lighting-plugs-and-sockets/\">Plugs &amp; Sockets</a></li>\n<li><a href=\"/led-driving-light-harnesses/\">LED Driving Light Harnesses</a></li>\n<li><a href=\"/circuit-protection/\">Circuit Protection</a></li>\n<li><a href=\"/automotive/automotive-accessories/installation-tools/\">Installation Tools</a></li>\n<li><a href=\"/towing-kits-and-gear/\">Towing Gear</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 8,
+    "seo": {
+      "title": "Wiring, Plugs & Switches | OzLED",
+      "description": "Switches, connectors, Anderson plugs, trailer plugs and sockets, wiring harnesses, load resistors and towing gear for 12V and 24V vehicle lighting."
+    }
+  },
+  {
+    "id": "switches-connectors",
+    "parentId": "wiring-plugs-switches",
+    "name": "Switches, Connectors & Panels",
+    "path": "/switch-panels-and-connectors/",
+    "intro": "Switches, switch panels and electrical connectors for vehicle lighting.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Switches, Connectors & Panels | OzLED",
+      "description": "Switches, switch panels and electrical connectors for vehicle lighting. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "plugs-sockets",
+    "parentId": "wiring-plugs-switches",
+    "name": "Plugs & Sockets",
+    "path": "/led-lighting-plugs-and-sockets/",
+    "intro": "Anderson plugs, 12V sockets, trailer plugs and DC connectors.",
+    "bodyHtml": "<p>Plugs and sockets connect trailers and accessories to your vehicle. For trailers, match the plug to the socket on your tow vehicle, such as 7-pin flat. For high-current accessories in canopies, campers and caravans, BASE6 Anderson-style flush-mount sockets are rated at 50A.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [
+      {
+        "question": "What is the difference between a 7-pin flat and 7-pin round plug?",
+        "answer": "Both carry seven circuits for trailer lighting. 7-pin flat is common on light trailers and boat trailers, while 7-pin round is common on caravans and heavier trailers. They are not interchangeable without an adaptor."
+      },
+      {
+        "question": "What is an Anderson plug used for?",
+        "answer": "Anderson-style plugs carry high current, for example to charge a camper battery or power accessories in a canopy or caravan. The BASE6 flush-mount sockets are rated at 50A."
+      },
+      {
+        "question": "Do I need a 12-pin plug?",
+        "answer": "12-pin plugs are mainly used on caravans that need extra circuits, such as a battery charge line or electric brakes. Match the plug to the socket on your tow vehicle."
+      }
+    ],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Automotive Plugs & Sockets | OzLED",
+      "description": "Anderson plugs, 12V sockets, trailer plugs and DC connectors. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "driving-light-harnesses",
+    "parentId": "wiring-plugs-switches",
+    "name": "LED Driving Light Harnesses",
+    "path": "/led-driving-light-harnesses/",
+    "intro": "Wiring harnesses for connecting driving lights and light bars.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "LED Driving Light Harnesses | OzLED",
+      "description": "Wiring harnesses for connecting driving lights and light bars. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "circuit-protection",
+    "parentId": "wiring-plugs-switches",
+    "name": "Circuit Protection",
+    "path": "/circuit-protection/",
+    "intro": "Load resistors and circuit protection for LED vehicle lighting, used to stop light-failure warnings and fast indicator flashing.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "Circuit Protection | OzLED",
+      "description": "Load resistors and circuit protection for LED vehicle lighting, used to stop light-failure warnings and fast indicator flashing. Shop online at OzLED."
+    }
+  },
+  {
+    "id": "installation-tools",
+    "parentId": "wiring-plugs-switches",
+    "name": "Installation Tools",
+    "path": "/automotive/automotive-accessories/installation-tools/",
+    "intro": "Tools for installing automotive lighting and wiring.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "Installation Tools | OzLED",
+      "description": "Tools for installing automotive lighting and wiring. Part of the OzLED Wiring, Plugs & Switches range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "towing-gear",
+    "parentId": "wiring-plugs-switches",
+    "name": "Towing Gear",
+    "path": "/towing-kits-and-gear/",
+    "intro": "Towing accessories including trailer sockets and plugs.",
+    "bodyHtml": "<p>Browse Towing Gear by type:</p>\n<ul>\n<li><a href=\"/automotive/towing-gear/trailer-sockets-plugs/\">Trailer Sockets &amp; Plugs</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 6,
+    "seo": {
+      "title": "Towing Gear | OzLED",
+      "description": "Towing accessories including trailer sockets and plugs. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "trailer-sockets-plugs",
+    "parentId": "towing-gear",
+    "name": "Trailer Sockets & Plugs",
+    "path": "/automotive/towing-gear/trailer-sockets-plugs/",
+    "intro": "Trailer plugs, sockets and adaptors for connecting trailer lights to the tow vehicle.",
+    "bodyHtml": "<p>Trailer plugs and sockets connect your trailer's lights to the tow vehicle. Match the plug to the socket fitted to your vehicle; 7-pin flat is common on light trailers and boat trailers.</p>\n<p>Not sure which lamp suits your build? Call the team on <a href=\"tel:0732054355\">(07) 3205 4355</a>, <a href=\"/form/contact-us/\">send us a message</a> or visit the showroom at U1/218 Leitchs Road, Brendale QLD.</p>",
+    "faqs": [
+      {
+        "question": "What is the difference between a 7-pin flat and 7-pin round plug?",
+        "answer": "Both carry seven circuits for trailer lighting. 7-pin flat is common on light trailers and boat trailers, while 7-pin round is common on caravans and heavier trailers. They are not interchangeable without an adaptor."
+      },
+      {
+        "question": "What is an Anderson plug used for?",
+        "answer": "Anderson-style plugs carry high current, for example to charge a camper battery or power accessories in a canopy or caravan. The BASE6 flush-mount sockets are rated at 50A."
+      },
+      {
+        "question": "Do I need a 12-pin plug?",
+        "answer": "12-pin plugs are mainly used on caravans that need extra circuits, such as a battery charge line or electric brakes. Match the plug to the socket on your tow vehicle."
+      }
+    ],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Trailer Plugs & Sockets | OzLED",
+      "description": "Trailer plugs, sockets and adaptors for connecting trailer lights to the tow vehicle. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "reverse-cameras",
+    "parentId": null,
+    "name": "Car Reverse Cameras & Alarms",
+    "navLabel": "Reverse Cameras",
+    "path": "/car-reverse-cameras/",
+    "intro": "Reverse cameras, rear-view monitors, reverse alarms and parking systems for cars, utes and trucks.",
+    "bodyHtml": "<p>Browse Car Reverse Cameras &amp; Alarms by type:</p>\n<ul>\n<li><a href=\"/automotive/visual-audio-safety/reverse-monitors/\">Reverse Monitors</a></li>\n<li><a href=\"/automotive/visual-audio-safety/reverse-alarms/\">Reverse Alarms</a></li>\n<li><a href=\"/parking-systems/~-364\">Parking Systems</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 9,
+    "seo": {
+      "title": "Car Reverse Cameras | OzLED",
+      "description": "Reverse cameras, rear-view monitors, reverse alarms and parking systems for cars, utes and trucks. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "reverse-monitors",
+    "parentId": "reverse-cameras",
+    "name": "Reverse Monitors",
+    "path": "/automotive/visual-audio-safety/reverse-monitors/",
+    "intro": "Rear-view monitors for use with reversing cameras.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "Reverse Monitors | OzLED",
+      "description": "Rear-view monitors for use with reversing cameras. Part of the OzLED Reverse Cameras range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "reverse-alarms",
+    "parentId": "reverse-cameras",
+    "name": "Reverse Alarms",
+    "path": "/automotive/visual-audio-safety/reverse-alarms/",
+    "intro": "Reverse alarms that warn people behind a reversing vehicle.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "Reverse Alarms | OzLED",
+      "description": "Reverse alarms that warn people behind a reversing vehicle. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "parking-systems",
+    "parentId": "reverse-cameras",
+    "name": "Parking Systems",
+    "path": "/parking-systems/~-364",
+    "intro": "Parking sensor systems.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "Parking Systems | OzLED",
+      "description": "Parking sensor systems. Part of the OzLED Reverse Cameras range. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6",
+    "parentId": null,
+    "name": "BASE6",
+    "navLabel": "BASE6",
+    "path": "/base6/",
+    "intro": "BASE6 is OzLED's own brand of LED lighting, launched in 2013, covering work lights, driving lights, light bars, warning lights and camping lights.",
+    "bodyHtml": "<p>BASE6 is OzLED's own brand. Launched in 2013, it covers LED work lights, driving lights, light bars, warning and emergency lighting, camping and outdoor lighting, rock lights and mounting hardware.</p>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 10,
+    "seo": {
+      "title": "BASE6 LED Lighting | OzLED",
+      "description": "BASE6 is OzLED's own LED lighting brand, launched in 2013: work lights, driving lights, light bars, warning lights and camping lights. Shop online at OzLED."
+    }
+  },
+  {
+    "id": "base6-warning",
+    "parentId": "base6",
+    "name": "Warning & Emergency Lights",
+    "path": "/base6/Warning-emergency-Lights",
+    "intro": "BASE6 warning light bars, beacons, perimeter lights and arrow boards.",
+    "bodyHtml": "<p>Browse Warning &amp; Emergency Lights by type:</p>\n<ul>\n<li><a href=\"/Guardian-Series\">Guardian All in One Light Bars</a></li>\n<li><a href=\"/base6/Warning-emergency-Lights/Surface-Mount-Perimeter-Warning-Lights\">Surface Mount Perimeter Warning Lights</a></li>\n<li><a href=\"/base6/Warning-emergency-Lights/Beacons\">Beacons</a></li>\n<li><a href=\"/base6/Warning-emergency-Lights/EmergencyLightBars\">Emergency Light Bars</a></li>\n<li><a href=\"/base6/Warning-emergency-Lights/Arrow-Board-Siren\">Arrow Board, Siren, etc</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "BASE6 Warning & Emergency Lights | OzLED",
+      "description": "BASE6 warning light bars, beacons, perimeter lights and arrow boards. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-guardian-series",
+    "parentId": "base6-warning",
+    "name": "Guardian All in One Light Bars",
+    "path": "/Guardian-Series",
+    "intro": "BASE6 Guardian all-in-one warning and scene light bars.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "BASE6 Guardian All in One Light Bars | OzLED",
+      "description": "BASE6 Guardian all-in-one warning and scene light bars. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-surface-mount-warning",
+    "parentId": "base6-warning",
+    "name": "Surface Mount Perimeter Warning Lights",
+    "path": "/base6/Warning-emergency-Lights/Surface-Mount-Perimeter-Warning-Lights",
+    "intro": "BASE6 surface-mount perimeter warning lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "BASE6 Surface Mount Perimeter Warning Lights | OzLED",
+      "description": "BASE6 surface-mount perimeter warning lights. Part of the OzLED Warning & Emergency Lights range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "base6-beacons",
+    "parentId": "base6-warning",
+    "name": "Beacons",
+    "navLabel": "BASE6 Beacons",
+    "path": "/base6/Warning-emergency-Lights/Beacons",
+    "intro": "BASE6 LED beacons, including the MINELUX range.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "BASE6 Beacons | OzLED",
+      "description": "BASE6 LED beacons, including the MINELUX range. Part of the OzLED Warning & Emergency Lights range. Shop online at OzLED with delivery Australia-wide."
+    }
+  },
+  {
+    "id": "base6-emergency-light-bars",
+    "parentId": "base6-warning",
+    "name": "Emergency Light Bars",
+    "path": "/base6/Warning-emergency-Lights/EmergencyLightBars",
+    "intro": "BASE6 emergency and warning light bars.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "BASE6 Emergency Light Bars | OzLED",
+      "description": "BASE6 emergency and warning light bars. Part of the OzLED Warning & Emergency Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-arrow-board-siren",
+    "parentId": "base6-warning",
+    "name": "Arrow Board, Siren, etc",
+    "path": "/base6/Warning-emergency-Lights/Arrow-Board-Siren",
+    "intro": "BASE6 arrow boards, sirens and related warning products.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "BASE6 Arrow Board, Siren, etc | OzLED",
+      "description": "BASE6 arrow boards, sirens and related warning products. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-work-lights",
+    "parentId": "base6",
+    "name": "Work Lights",
+    "navLabel": "BASE6 Work Lights",
+    "path": "/base6/work-Lights",
+    "intro": "BASE6 LED work lights, including the Cube, HD, Sniper and Stealth series.",
+    "bodyHtml": "<p>Browse Work Lights by type:</p>\n<ul>\n<li><a href=\"/base6/work-Lights/Stealth_Series\">Stealth Series Work Light</a></li>\n<li><a href=\"/base6/work-Lights/MicroM2\">BASE6 2&quot; Micro M2 Series</a></li>\n<li><a href=\"/base6/work-Lights/HD_Series\">HD Series Work Lights</a></li>\n<li><a href=\"/base6/work-Lights/cube_Series\">Marine Grade Cube Series Work Lights</a></li>\n<li><a href=\"/base6/work-Lights/Sniper_Series\">Sniper Series Work Lights</a></li>\n<li><a href=\"/base6/work-Lights/Additional_Models\">Additional Models</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "BASE6 Work Lights | OzLED",
+      "description": "BASE6 LED work lights, including the Cube, HD, Sniper and Stealth series. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-stealth-series",
+    "parentId": "base6-work-lights",
+    "name": "Stealth Series Work Light",
+    "path": "/base6/work-Lights/Stealth_Series",
+    "intro": "BASE6 Stealth series LED work lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "BASE6 Stealth Series Work Light | OzLED",
+      "description": "BASE6 Stealth series LED work lights. Part of the OzLED BASE6 Work Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-micro-m2",
+    "parentId": "base6-work-lights",
+    "name": "BASE6 2\" Micro M2 Series",
+    "path": "/base6/work-Lights/MicroM2",
+    "intro": "BASE6 2-inch Micro M2 series work lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "BASE6 2\" Micro M2 Series | OzLED",
+      "description": "BASE6 2-inch Micro M2 series work lights. Part of the OzLED BASE6 Work Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-hd-series",
+    "parentId": "base6-work-lights",
+    "name": "HD Series Work Lights",
+    "path": "/base6/work-Lights/HD_Series",
+    "intro": "BASE6 Heavy Duty (HD) series LED work lights designed for mining applications.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "BASE6 HD Series Work Lights | OzLED",
+      "description": "BASE6 Heavy Duty (HD) series LED work lights designed for mining applications. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-cube-series",
+    "parentId": "base6-work-lights",
+    "name": "Marine Grade Cube Series Work Lights",
+    "path": "/base6/work-Lights/cube_Series",
+    "intro": "BASE6 3-inch Cube series work lights, including marine-grade white housings.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "BASE6 Marine Grade Cube Series Work Lights | OzLED",
+      "description": "BASE6 3-inch Cube series work lights, including marine-grade white housings. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-sniper-series",
+    "parentId": "base6-work-lights",
+    "name": "Sniper Series Work Lights",
+    "path": "/base6/work-Lights/Sniper_Series",
+    "intro": "BASE6 Sniper series LED work lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "BASE6 Sniper Series Work Lights | OzLED",
+      "description": "BASE6 Sniper series LED work lights. Part of the OzLED BASE6 Work Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-additional-work-lights",
+    "parentId": "base6-work-lights",
+    "name": "Additional Models",
+    "path": "/base6/work-Lights/Additional_Models",
+    "intro": "Other BASE6 work light models.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 6,
+    "seo": {
+      "title": "BASE6 Additional Models | OzLED",
+      "description": "Other BASE6 work light models. Part of the OzLED BASE6 Work Lights range. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-driving-lights",
+    "parentId": "base6",
+    "name": "Driving Lights",
+    "navLabel": "BASE6 Driving Lights",
+    "path": "/base6/Driving-Lights",
+    "intro": "BASE6 LED driving lights, including the HEX, Quad, LUX and SB9 Pro series.",
+    "bodyHtml": "<p>Browse Driving Lights by type:</p>\n<ul>\n<li><a href=\"/base6/driving-lights/B6DL7C-Series\">7&quot; Diameter Driving Light</a></li>\n<li><a href=\"/base6/driving-lights/SB9Pro\">SB9 Pro Driving Lights</a></li>\n<li><a href=\"/base6/driving-lights/Quad7\">BASE6 Quad Series 7&quot;</a></li>\n<li><a href=\"/base6/driving-lights/Hex\">HEX</a></li>\n<li><a href=\"/base6/driving-lights/LUX-Series\">LUX Series 8.5&quot; Driving Lights</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "BASE6 Driving Lights | OzLED",
+      "description": "BASE6 LED driving lights, including the HEX, Quad, LUX and SB9 Pro series. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-7in-driving",
+    "parentId": "base6-driving-lights",
+    "name": "7\" Diameter Driving Light",
+    "path": "/base6/driving-lights/B6DL7C-Series",
+    "intro": "BASE6 7-inch round LED driving lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "BASE6 7\" Diameter Driving Light | OzLED",
+      "description": "BASE6 7-inch round LED driving lights. Part of the OzLED BASE6 Driving Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-sb9-pro",
+    "parentId": "base6-driving-lights",
+    "name": "SB9 Pro Driving Lights",
+    "path": "/base6/driving-lights/SB9Pro",
+    "intro": "BASE6 SB9 Pro LED driving lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "BASE6 SB9 Pro Driving Lights | OzLED",
+      "description": "BASE6 SB9 Pro LED driving lights. Part of the OzLED BASE6 Driving Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-quad7",
+    "parentId": "base6-driving-lights",
+    "name": "BASE6 Quad Series 7\"",
+    "path": "/base6/driving-lights/Quad7",
+    "intro": "BASE6 Quad series 7-inch driving lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "BASE6 Quad Series 7\" | OzLED",
+      "description": "BASE6 Quad series 7-inch driving lights. Part of the OzLED BASE6 Driving Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-hex",
+    "parentId": "base6-driving-lights",
+    "name": "HEX",
+    "navLabel": "HEX Driving Lights",
+    "path": "/base6/driving-lights/Hex",
+    "intro": "BASE6 HEX series 9-inch driving lights with amber and white position lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "BASE6 HEX | OzLED",
+      "description": "BASE6 HEX series 9-inch driving lights with amber and white position lights. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-lux-driving",
+    "parentId": "base6-driving-lights",
+    "name": "LUX Series 8.5\" Driving Lights",
+    "path": "/base6/driving-lights/LUX-Series",
+    "intro": "BASE6 LUX series 8.5-inch driving lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "BASE6 LUX Series 8.5\" Driving Lights | OzLED",
+      "description": "BASE6 LUX series 8.5-inch driving lights. Part of the OzLED BASE6 Driving Lights range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-light-bars",
+    "parentId": "base6",
+    "name": "Light Bars",
+    "navLabel": "BASE6 Light Bars",
+    "path": "/base6/Light-Bars",
+    "intro": "BASE6 LED light bars, including the Stealth, DR, LUX curved, Aggressor and Combat series.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "BASE6 LED Light Bars | OzLED",
+      "description": "BASE6 LED light bars, including the Stealth, DR, LUX curved, Aggressor and Combat series. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-camping-outdoor",
+    "parentId": "base6",
+    "name": "Camping and Outdoor",
+    "navLabel": "BASE6 Camping & Outdoor",
+    "path": "/base6/Camping-Outdoor",
+    "intro": "BASE6 camping and outdoor lighting, including amber lights, strip lights and rock lights.",
+    "bodyHtml": "<p>Browse Camping and Outdoor by type:</p>\n<ul>\n<li><a href=\"/base6/Camping-Outdoor/Amber-Lights\">Amber Outdoor and Camping Lights</a></li>\n<li><a href=\"/base6/Camping-Outdoor/Flexible-LED-Strips\">Flexible LED Strips</a></li>\n<li><a href=\"/BASE6/Camping-Outdoor/Interior-Light\">Surface Mount LED Interior Light</a></li>\n<li><a href=\"/base6/Camping-Outdoor/Flush-Mount-LED-Bolt\">Flush Mount LED Bolt</a></li>\n<li><a href=\"/base6/Camping-Outdoor/Rigid-Bars\">BASE6 Rigid Bars and Accessories</a></li>\n<li><a href=\"/Scene-Light\">Scene Light</a></li>\n<li><a href=\"/Lux-Panels\">BASE6 Lux Panels</a></li>\n</ul>",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "BASE6 Camping and Outdoor | OzLED",
+      "description": "BASE6 camping and outdoor lighting, including amber lights, strip lights and rock lights. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-amber-lights",
+    "parentId": "base6-camping-outdoor",
+    "name": "Amber Outdoor and Camping Lights",
+    "path": "/base6/Camping-Outdoor/Amber-Lights",
+    "intro": "BASE6 amber LED lights for camping.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 1,
+    "seo": {
+      "title": "BASE6 Amber Outdoor and Camping Lights | OzLED",
+      "description": "BASE6 amber LED lights for camping. Part of the OzLED BASE6 Camping & Outdoor range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-flexible-strips",
+    "parentId": "base6-camping-outdoor",
+    "name": "Flexible LED Strips",
+    "path": "/base6/Camping-Outdoor/Flexible-LED-Strips",
+    "intro": "BASE6 flexible LED strip lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 2,
+    "seo": {
+      "title": "BASE6 Flexible LED Strips | OzLED",
+      "description": "BASE6 flexible LED strip lights. Part of the OzLED BASE6 Camping & Outdoor range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-interior-light",
+    "parentId": "base6-camping-outdoor",
+    "name": "Surface Mount LED Interior Light",
+    "path": "/BASE6/Camping-Outdoor/Interior-Light",
+    "intro": "BASE6 surface-mount LED interior lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 3,
+    "seo": {
+      "title": "BASE6 Surface Mount LED Interior Light | OzLED",
+      "description": "BASE6 surface-mount LED interior lights. Part of the OzLED BASE6 Camping & Outdoor range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-flush-bolt",
+    "parentId": "base6-camping-outdoor",
+    "name": "Flush Mount LED Bolt",
+    "path": "/base6/Camping-Outdoor/Flush-Mount-LED-Bolt",
+    "intro": "BASE6 flush-mount LED bolt lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 4,
+    "seo": {
+      "title": "BASE6 Flush Mount LED Bolt | OzLED",
+      "description": "BASE6 flush-mount LED bolt lights. Part of the OzLED BASE6 Camping & Outdoor range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-rigid-bars",
+    "parentId": "base6-camping-outdoor",
+    "name": "BASE6 Rigid Bars and Accessories",
+    "path": "/base6/Camping-Outdoor/Rigid-Bars",
+    "intro": "BASE6 rigid LED strip bars, splitters and mounting clips.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 5,
+    "seo": {
+      "title": "BASE6 Rigid Bars and Accessories | OzLED",
+      "description": "BASE6 rigid LED strip bars, splitters and mounting clips. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-scene-light",
+    "parentId": "base6-camping-outdoor",
+    "name": "Scene Light",
+    "path": "/Scene-Light",
+    "intro": "BASE6 LED scene lights.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 6,
+    "seo": {
+      "title": "BASE6 Scene Light | OzLED",
+      "description": "BASE6 LED scene lights. Part of the OzLED BASE6 Camping & Outdoor range. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-lux-panels",
+    "parentId": "base6-camping-outdoor",
+    "name": "BASE6 Lux Panels",
+    "path": "/Lux-Panels",
+    "intro": "BASE6 LUX LED light panels.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 7,
+    "seo": {
+      "title": "BASE6 Lux Panels | OzLED",
+      "description": "BASE6 LUX LED light panels. Part of the OzLED BASE6 Camping & Outdoor range. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-mounting",
+    "parentId": "base6",
+    "name": "Mounting Hardware and Accessories",
+    "navLabel": "BASE6 Mounting Hardware",
+    "path": "/base6/mounting-hardware-accessories",
+    "intro": "BASE6 brackets, mounts and accessories.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 6,
+    "seo": {
+      "title": "BASE6 Mounting Hardware and Accessories | OzLED",
+      "description": "BASE6 brackets, mounts and accessories. Part of the OzLED BASE6 range. Order online for delivery Australia-wide or pick up from our Brendale, QLD showroom."
+    }
+  },
+  {
+    "id": "base6-rock-lights",
+    "parentId": "base6",
+    "name": "Rock Lights",
+    "navLabel": "BASE6 Rock Lights",
+    "path": "/base6/rock-lights",
+    "intro": "BASE6 ROX series LED rock lights for underbody, engine bay and camp lighting.",
+    "bodyHtml": "",
+    "faqs": [],
+    "onMenu": true,
+    "sortOrder": 7,
+    "seo": {
+      "title": "BASE6 Rock Lights | OzLED",
+      "description": "BASE6 ROX series LED rock lights for underbody, engine bay and camp lighting. Shop online at OzLED or pick up from our Brendale, QLD showroom."
+    }
+  }
+]

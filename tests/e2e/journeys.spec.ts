@@ -72,9 +72,12 @@ test.describe("SPEC §12 Phase 2 checks", () => {
 
   test("filters update the URL; filtered URLs are noindex", async ({ page, request }) => {
     await page.goto("/led-tail-lights/");
-    if (await page.getByRole("button", { name: /^Filters/ }).isVisible()) await page.getByRole("button", { name: /^Filters/ }).click();
-    const option = page.getByRole("checkbox").first();
-    test.skip((await option.count()) === 0, "no facets");
+    // The filtered grid streams in; wait for it rather than racing it.
+    await expect(page.getByText(/\d+ products?/).first()).toBeVisible();
+    const sheet = page.getByRole("button", { name: /^Filters/ });
+    if (await sheet.isVisible()) await sheet.click();
+    const option = page.getByRole("checkbox").filter({ visible: true }).first();
+    await expect(option).toBeVisible();
     await option.click();
     await expect(page).toHaveURL(/\?.+=/);
     const res = await request.get(page.url());

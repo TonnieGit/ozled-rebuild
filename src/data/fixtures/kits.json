@@ -1,0 +1,186 @@
+[
+  {
+    "path": "/kits/ute-tray-lighting/",
+    "name": "Build your tray lighting",
+    "application": "ute-tray",
+    "summary": "Build a complete ute tray lighting set in four steps: a pair of tail lights or a plug-and-play kit, a licence plate light, a trailer plug if you tow, and the brackets, patch leads or load resistors your lamps need. Out-of-stock items are shown with their status and never pre-selected.",
+    "steps": [
+      {
+        "id": "tail-lights",
+        "title": "Pick your tail lights",
+        "description": "Choose a pair of combination tail lights or a plug-and-play kit. Every option here is sold as a pair or complete kit. Plug-and-play kits include vehicle-specific patch leads and licence plate lights.",
+        "candidateSkus": [
+          "LEDMAXILAMPC3XRWB2P",
+          "LED38541ARWM-2",
+          "LED385ARWM-2",
+          "LED355ARWM-2",
+          "LEDSOMAXI2LR450-Master",
+          "LED385-Master",
+          "LED38541-Master",
+          "LED355BCSB-Master"
+        ],
+        "required": true,
+        "defaultQty": 1,
+        "filterKeys": [
+          "functions",
+          "connector",
+          "voltage",
+          "mount",
+          "ipRating"
+        ]
+      },
+      {
+        "id": "licence-plate",
+        "title": "Add a licence plate light",
+        "description": "Skip this if your plug-and-play kit already includes licence plate lights. Some lamps need two fitted (the 41 Series fitting instructions require two), so check the product page.",
+        "candidateSkus": [
+          "LED41BLM",
+          "LED35BLM",
+          "LED60BLMB",
+          "LED30CLM",
+          "EL25B"
+        ],
+        "required": false,
+        "defaultQty": 1,
+        "filterKeys": [
+          "voltage",
+          "mount"
+        ]
+      },
+      {
+        "id": "plug-socket",
+        "title": "Plug and socket",
+        "description": "If you tow, add a plug that matches your trailer socket, or a flush Anderson socket for powering accessories.",
+        "candidateSkus": [
+          "N82141BL",
+          "LED5C41",
+          "LLF7P5",
+          "B6APFLSH",
+          "B6APFLSH-CIG"
+        ],
+        "required": false,
+        "defaultQty": 1,
+        "filterKeys": [
+          "connector"
+        ]
+      },
+      {
+        "id": "brackets-resistors",
+        "title": "Brackets, patch leads and load resistors",
+        "description": "Add right-angle brackets, a vehicle patch lead or adaptor for hard-wired lamps, and load resistors if your vehicle shows a light-failure warning or fast flash. Only items compatible with your chosen lamps are shown.",
+        "candidateSkus": [
+          "LEDMFBKT",
+          "LED80B3SKT",
+          "LEDPATCH-HILUX",
+          "LED2LR12450B",
+          "LEDLR122",
+          "LEDLR242"
+        ],
+        "required": false,
+        "defaultQty": 1,
+        "filterKeys": [
+          "voltage",
+          "connector"
+        ]
+      }
+    ],
+    "seo": {
+      "title": "Build Your Tray Lighting Kit | OzLED",
+      "description": "Build your ute tray lighting in four steps: LED tail lights or a plug-and-play kit, licence plate light, trailer plug, and brackets or load resistors."
+    },
+    "heroImage": {
+      "src": "/images/kits/ute-tray-lighting.webp",
+      "alt": "Ute tray fitted with Maxilamp 3 Series LED tail lights",
+      "width": 1600,
+      "height": 800,
+      "view": "installed"
+    }
+  },
+  {
+    "path": "/kits/trailer-lighting/",
+    "name": "Build your trailer lighting",
+    "application": "trailer",
+    "summary": "Light a box, boat or camper trailer in four steps: a pair of trailer tail lights, a licence plate light if your lamps don't include one, a plug to suit your tow vehicle with any cabling, and marker lights or load resistors where needed. Out-of-stock items are shown with their status and never pre-selected.",
+    "steps": [
+      {
+        "id": "tail-lights",
+        "title": "Pick your trailer tail lights",
+        "description": "Choose a pair of trailer lamps. For boat trailers, pick lamps listed as submersible. Every option here is sold as a pair or pack of two.",
+        "candidateSkus": [
+          "LED207BARLP2",
+          "LED210BARLP2B",
+          "LEDH155PR",
+          "N93640BL2"
+        ],
+        "required": true,
+        "defaultQty": 1,
+        "filterKeys": [
+          "functions",
+          "voltage",
+          "ipRating",
+          "mount"
+        ]
+      },
+      {
+        "id": "licence-plate",
+        "title": "Add a licence plate light",
+        "description": "The 207 and 210 Series and the Narva pack already include a licence plate lamp. Otherwise add one here and check whether the lamp needs two fitted.",
+        "candidateSkus": [
+          "LED41BLM",
+          "LED60BLMB",
+          "LED35BLM",
+          "EL25B"
+        ],
+        "required": false,
+        "defaultQty": 1,
+        "filterKeys": [
+          "voltage",
+          "mount"
+        ]
+      },
+      {
+        "id": "plug-cable",
+        "title": "Plug and cabling",
+        "description": "Choose a plug that matches your tow vehicle's socket, plus a plug-in cable kit for longer trailers.",
+        "candidateSkus": [
+          "N82141BL",
+          "LED5C41",
+          "LEDBTK8F",
+          "LLF7P5"
+        ],
+        "required": true,
+        "defaultQty": 1,
+        "filterKeys": [
+          "connector"
+        ]
+      },
+      {
+        "id": "markers-resistors",
+        "title": "Marker lights and load resistors",
+        "description": "Larger trailers need side and end-outline markers. Add load resistors if your tow vehicle flashes fast or shows a bulb-failure warning with LED lamps.",
+        "candidateSkus": [
+          "LED69ARM",
+          "LEDLR122",
+          "LEDLR242"
+        ],
+        "required": false,
+        "defaultQty": 1,
+        "filterKeys": [
+          "voltage",
+          "functions"
+        ]
+      }
+    ],
+    "seo": {
+      "title": "Build Your Trailer Lighting Kit | OzLED",
+      "description": "Build trailer or boat trailer lighting in four steps: LED tail lights, licence plate light, trailer plug and cable kit, plus marker lights and load resistors."
+    },
+    "heroImage": {
+      "src": "/images/kits/trailer-lighting.webp",
+      "alt": "Pair of LED Autolamps 207 Series submersible trailer lights",
+      "width": 750,
+      "height": 750,
+      "view": "main"
+    }
+  }
+]
